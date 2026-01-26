@@ -1,0 +1,4752 @@
+[
+  {
+    "hebrew": "בְּנֵי",
+    "german": "Söhne von",
+    "root": "בן"
+  },
+  {
+    "hebrew": "וַיֹּאמֶר",
+    "german": "und er hat gesagt",
+    "root": "אמר"
+  },
+  {
+    "hebrew": "דִּבֵּר",
+    "german": "er hat geredet",
+    "root": "דבר"
+  },
+  {
+    "hebrew": "וַיַּעַשׂ",
+    "german": "und er hat gemacht",
+    "root": "עשה"
+  },
+  {
+    "hebrew": "וַיֵּלֶךְ",
+    "german": "und er ist gegangen",
+    "root": "הלך"
+  },
+  {
+    "hebrew": "וַיָּבֹא",
+    "german": "und er ist gekommen / hineingegangen",
+    "root": "בוא"
+  },
+  {
+    "hebrew": "וְ",
+    "german": "und / aber",
+    "root": "ו"
+  },
+  {
+    "hebrew": "כֹּה",
+    "german": "so",
+    "root": "כה"
+  },
+  {
+    "hebrew": "כַּאֲשֶׁר ... כֵּן",
+    "german": "wie (er befohlen hatte,) so (tat er)",
+    "root": "כאשר … כן"
+  },
+  {
+    "hebrew": "כַּאֲשֶׁר",
+    "german": "als / weil / wie",
+    "root": "כאשר"
+  },
+  {
+    "hebrew": "לֹא",
+    "german": "nicht / nein",
+    "root": "לא"
+  },
+  {
+    "hebrew": "כִּי",
+    "german": "dass / denn / weil / wenn",
+    "root": "כי"
+  },
+  {
+    "hebrew": "לֵאמֹר",
+    "german": "folgendermassen / ",
+    "root": "אמר"
+  },
+  {
+    "hebrew": "לְ",
+    "german": "für / hinsichtlich",
+    "root": "ל"
+  },
+  {
+    "hebrew": "אֵל",
+    "german": "zu / nach ... hin",
+    "root": "אל"
+  },
+  {
+    "hebrew": "וַיִּתֵּן",
+    "german": "und er hat gegeben / eingesetzt",
+    "root": "נתן"
+  },
+  {
+    "hebrew": "וַיִּקַּח",
+    "german": "und er hat genommen",
+    "root": "לקח"
+  },
+  {
+    "hebrew": "וַיְהִי",
+    "german": "und es geschah / wurde",
+    "root": "היה"
+  },
+  {
+    "hebrew": "וַיַּרְא",
+    "german": "und er hat gesehen",
+    "root": "ראה"
+  },
+  {
+    "hebrew": "וַיִּשְׁמַע",
+    "german": "und er hat gehört",
+    "root": "שמע"
+  },
+  {
+    "hebrew": "בְּ",
+    "german": "in / mit / durch",
+    "root": "ב"
+  },
+  {
+    "hebrew": "כְּ",
+    "german": "wie / entsprechend / gemäss",
+    "root": "כ"
+  },
+  {
+    "hebrew": "עַל",
+    "german": "auf / über / gegen / wegen",
+    "root": "על"
+  },
+  {
+    "hebrew": "עִם",
+    "german": "(zusammen) mit / bei",
+    "root": "עם"
+  },
+  {
+    "hebrew": "בֵּין",
+    "german": "zwischen",
+    "root": "בין"
+  },
+  {
+    "hebrew": "תַּחַת",
+    "german": "unter / anstelle von",
+    "root": "תחת"
+  },
+  {
+    "hebrew": "אִישׁ",
+    "german": "Mann",
+    "root": "איש"
+  },
+  {
+    "hebrew": "אִשָּׁה",
+    "german": "Frau",
+    "root": "אשה"
+  },
+  {
+    "hebrew": "בָּנִים",
+    "german": "Söhne",
+    "root": "בן"
+  },
+  {
+    "hebrew": "בַּת",
+    "german": "Tochter (von)",
+    "root": "בת"
+  },
+  {
+    "hebrew": "בִּתּוֹ",
+    "german": "seine Tochter",
+    "root": "בת"
+  },
+  {
+    "hebrew": "צֹאן",
+    "german": "Kleinvieh / Schafe und Ziegen",
+    "root": "צאן"
+  },
+  {
+    "hebrew": "בָּקָר",
+    "german": "Rinder (kollektiv)",
+    "root": "בקר"
+  },
+  {
+    "hebrew": "עַם",
+    "german": "Volk",
+    "root": "עם"
+  },
+  {
+    "hebrew": "כֹּהֵן",
+    "german": "Priester",
+    "root": "כהן"
+  },
+  {
+    "hebrew": "רֹאשׁ",
+    "german": "Kopf / Gipfel / Haupt / Anfang (von)",
+    "root": "ראש"
+  },
+  {
+    "hebrew": "קוֹל",
+    "german": "Stimme / Geräusch (von)",
+    "root": "קול"
+  },
+  {
+    "hebrew": "דָּבָר",
+    "german": "Wort / Sache / Ereignis",
+    "root": "דבר"
+  },
+  {
+    "hebrew": "דְּבַר",
+    "german": "Wort von",
+    "root": "דבר"
+  },
+  {
+    "hebrew": "דְּבָרִים",
+    "german": "Worte / Ereignisse",
+    "root": "דבר"
+  },
+  {
+    "hebrew": "דִּבְרֵי",
+    "german": "Worte von",
+    "root": "דבר"
+  },
+  {
+    "hebrew": "צָבָא f.",
+    "german": "Heer",
+    "root": "צבא"
+  },
+  {
+    "hebrew": "צְבָאוֹת",
+    "german": "Heerscharen",
+    "root": "צבא"
+  },
+  {
+    "hebrew": "אֶרֶץ",
+    "german": "Land / Erde",
+    "root": "ארץ"
+  },
+  {
+    "hebrew": "חָכְמָה",
+    "german": "Weisheit",
+    "root": "חכמה"
+  },
+  {
+    "hebrew": "שָׁלוֹם",
+    "german": "Friede / Wohlergehen",
+    "root": "שלום"
+  },
+  {
+    "hebrew": "דרשׁ (+Akk.)",
+    "german": "nach etwas fragen / trachten / fordern",
+    "root": "דרש"
+  },
+  {
+    "hebrew": "זכר (+ Akk.)",
+    "german": "sich an etwas erinnern /an etw./jmdn. denken",
+    "root": "זכר"
+  },
+  {
+    "hebrew": "כרת",
+    "german": "abschneiden / (einen Bund) schliessen",
+    "root": "כרת"
+  },
+  {
+    "hebrew": "פקד (+ Akk.)",
+    "german": "mustern (ein Heer) / heimsuchen / sich kümmern um etw./jmdn.",
+    "root": "פקד"
+  },
+  {
+    "hebrew": "קבר",
+    "german": "begraben",
+    "root": "קבר"
+  },
+  {
+    "hebrew": "רדף",
+    "german": "verfolgen / hinter etw./jmdm. herjagen",
+    "root": "רדף"
+  },
+  {
+    "hebrew": "שׂרף",
+    "german": "verbrennen",
+    "root": "שרף"
+  },
+  {
+    "hebrew": "שׁמר",
+    "german": "bewahren / hüten / halten",
+    "root": "שמר"
+  },
+  {
+    "hebrew": "תפשׂ (+ Akk. oder בְּ)",
+    "german": "etw./jmdn. fassen / ergreifen",
+    "root": "תפש ב"
+  },
+  {
+    "hebrew": "אֵת / אֶת",
+    "german": "bei / mit jmdm.",
+    "root": "את את"
+  },
+  {
+    "hebrew": "אַחַר / אַחֲרֵי",
+    "german": "nach/hinter etw./jmd. her",
+    "root": "אחר אחרי"
+  },
+  {
+    "hebrew": "לִפְנֵי",
+    "german": "vor",
+    "root": "פנה"
+  },
+  {
+    "hebrew": "עַד",
+    "german": "bis / bis zu",
+    "root": "עד"
+  },
+  {
+    "hebrew": "מִן",
+    "german": "von ... her / seit / wegen",
+    "root": "מן"
+  },
+  {
+    "hebrew": "הָאָרֶץ",
+    "german": "das Land / die Erde",
+    "root": "ארץ"
+  },
+  {
+    "hebrew": "מִי",
+    "german": "wer?",
+    "root": "מי"
+  },
+  {
+    "hebrew": "לָמָּה",
+    "german": "warum? (vorwurfsvoll)",
+    "root": "מה"
+  },
+  {
+    "hebrew": "אֵיךְ",
+    "german": "wie?",
+    "root": "איך"
+  },
+  {
+    "hebrew": "אַיֵּה",
+    "german": "wo?",
+    "root": "איה"
+  },
+  {
+    "hebrew": "אָנָה",
+    "german": "wohin?",
+    "root": "אן"
+  },
+  {
+    "hebrew": "מָתַי",
+    "german": "wann?",
+    "root": "מתי"
+  },
+  {
+    "hebrew": "גַּם",
+    "german": "auch",
+    "root": "גם"
+  },
+  {
+    "hebrew": "רַק",
+    "german": "nur",
+    "root": "רק"
+  },
+  {
+    "hebrew": "שָׁם",
+    "german": "dort",
+    "root": "שם"
+  },
+  {
+    "hebrew": "שָׁמָּה",
+    "german": "dort / dorthin",
+    "root": "שם"
+  },
+  {
+    "hebrew": "הִנֵּה",
+    "german": "siehe!",
+    "root": "הנה"
+  },
+  {
+    "hebrew": "לְעוֹלָם",
+    "german": "auf immer",
+    "root": "עולם"
+  },
+  {
+    "hebrew": "לִקְרַאת",
+    "german": "entgegen",
+    "root": "קרא"
+  },
+  {
+    "hebrew": "אָדָם",
+    "german": "Mensch / Menschen",
+    "root": "אדם"
+  },
+  {
+    "hebrew": "בֶּן־אָדָם",
+    "german": "(einzelner) Mensch",
+    "root": "בןאדם"
+  },
+  {
+    "hebrew": "אֲנָשִׁים",
+    "german": "Männer",
+    "root": "אנוש"
+  },
+  {
+    "hebrew": "אַנְשֵׁי",
+    "german": "Männer von",
+    "root": "אנוש"
+  },
+  {
+    "hebrew": "בְּרִית f.",
+    "german": "Bund (von)",
+    "root": "ברית"
+  },
+  {
+    "hebrew": "סֵפֶר",
+    "german": "Brief / Buch / Schriftstück (von)",
+    "root": "ספר"
+  },
+  {
+    "hebrew": "נְאֻם",
+    "german": "Ausspruch (von)",
+    "root": "נאם"
+  },
+  {
+    "hebrew": "הַר",
+    "german": "Berg (von)",
+    "root": "הר"
+  },
+  {
+    "hebrew": "עִיר f.",
+    "german": "Stadt (von)",
+    "root": "עיר"
+  },
+  {
+    "hebrew": "הֶעָרִים",
+    "german": "die Städte",
+    "root": "עיר"
+  },
+  {
+    "hebrew": "נַעַר",
+    "german": "Knabe / Knecht (von)",
+    "root": "נער"
+  },
+  {
+    "hebrew": "נַעֲרָה",
+    "german": "Mädchen / Magd",
+    "root": "נערה"
+  },
+  {
+    "hebrew": "עֵץ",
+    "german": "Holz / Baum (von)",
+    "root": "עץ"
+  },
+  {
+    "hebrew": "אֵשׁ",
+    "german": "Feuer (von)",
+    "root": "אש"
+  },
+  {
+    "hebrew": "לחם בְּ ni.",
+    "german": "kämpfen / Krieg führen gegen etw./jmdn.",
+    "root": "לחם ב"
+  },
+  {
+    "hebrew": "כֶּסֶף",
+    "german": "Silber (von)",
+    "root": "כסף"
+  },
+  {
+    "hebrew": "זָהָב",
+    "german": "Gold",
+    "root": "זהב"
+  },
+  {
+    "hebrew": "אָנֹכִי אֲנִי",
+    "german": "ich",
+    "root": "אנכי אני"
+  },
+  {
+    "hebrew": "אַתָּה",
+    "german": "du (m.)",
+    "root": "אתה"
+  },
+  {
+    "hebrew": "אַתְּ",
+    "german": "du (f.)",
+    "root": "את"
+  },
+  {
+    "hebrew": "הוּא",
+    "german": "er",
+    "root": "הוא"
+  },
+  {
+    "hebrew": "הִיא",
+    "german": "sie (Sg.f.)",
+    "root": "הוא"
+  },
+  {
+    "hebrew": "אֲנַחְנוּ נַחְנוּ",
+    "german": "wir",
+    "root": "אנחנו נחנו"
+  },
+  {
+    "hebrew": "אַתֶּם",
+    "german": "ihr (m.)",
+    "root": "אתם"
+  },
+  {
+    "hebrew": "אַתֵּנָה",
+    "german": "ihr (f.)",
+    "root": "אתן"
+  },
+  {
+    "hebrew": "הֵנָּה",
+    "german": "sie (Pl.f.)",
+    "root": "הנה"
+  },
+  {
+    "hebrew": "טוֹב",
+    "german": "gut",
+    "root": "טוב"
+  },
+  {
+    "hebrew": "יָשָׁר",
+    "german": "recht / gerade",
+    "root": "ישר"
+  },
+  {
+    "hebrew": "קָטֹן / קָטָן",
+    "german": "klein",
+    "root": "קטן קטן"
+  },
+  {
+    "hebrew": "חָזָק",
+    "german": "stark / fest / hart",
+    "root": "חזק"
+  },
+  {
+    "hebrew": "צַדִּיק",
+    "german": "gerecht",
+    "root": "צדיק"
+  },
+  {
+    "hebrew": "טָמֵא",
+    "german": "unrein",
+    "root": "טמא"
+  },
+  {
+    "hebrew": "רָחוֹק",
+    "german": "fern",
+    "root": "רחק"
+  },
+  {
+    "hebrew": "לִבִּי",
+    "german": "mein Herz",
+    "root": "לב"
+  },
+  {
+    "hebrew": "עַתָּה",
+    "german": "jetzt",
+    "root": "עתה"
+  },
+  {
+    "hebrew": "אֵשֶׁת",
+    "german": "Frau von",
+    "root": "אשה"
+  },
+  {
+    "hebrew": "נָשִׁים",
+    "german": "Frauen",
+    "root": "אשה"
+  },
+  {
+    "hebrew": "יָד f.",
+    "german": "Hand / Gewalt",
+    "root": "יד"
+  },
+  {
+    "hebrew": "דָּם",
+    "german": "Blut",
+    "root": "דם"
+  },
+  {
+    "hebrew": "אָח",
+    "german": "Bruder",
+    "root": "אח"
+  },
+  {
+    "hebrew": "מָוֶת",
+    "german": "Tod",
+    "root": "מות"
+  },
+  {
+    "hebrew": "מוֹת",
+    "german": "Tod von",
+    "root": "מות"
+  },
+  {
+    "hebrew": "יוֹם",
+    "german": "Tag (von)",
+    "root": "יום"
+  },
+  {
+    "hebrew": "אָחִיו",
+    "german": "sein Bruder",
+    "root": "אח"
+  },
+  {
+    "hebrew": "הַיּוֹם",
+    "german": "heute",
+    "root": "יום"
+  },
+  {
+    "hebrew": "בְּהֵמָה",
+    "german": "Vieh / Tiere (kollektiv)",
+    "root": "בהמה"
+  },
+  {
+    "hebrew": "קֶשֶׁת f.",
+    "german": "Bogen",
+    "root": "קשת"
+  },
+  {
+    "hebrew": "מָלַךְ",
+    "german": "König werden / sein",
+    "root": "מלך"
+  },
+  {
+    "hebrew": "שָׁפַט",
+    "german": "richten",
+    "root": "שפט"
+  },
+  {
+    "hebrew": "משׁל בְּ",
+    "german": "herrschen über",
+    "root": "משל ב"
+  },
+  {
+    "hebrew": "שׁכן",
+    "german": "wohnen / sich niederlassen",
+    "root": "שכן"
+  },
+  {
+    "hebrew": "לכד",
+    "german": "fangen / einnehmen (eine Stadt)",
+    "root": "לכד"
+  },
+  {
+    "hebrew": "מכר",
+    "german": "verkaufen",
+    "root": "מכר"
+  },
+  {
+    "hebrew": "שׁבר",
+    "german": "(etwas) zerbrechen",
+    "root": "שבר"
+  },
+  {
+    "hebrew": "דרך",
+    "german": "treten",
+    "root": "דרך"
+  },
+  {
+    "hebrew": "מְאֹד",
+    "german": "sehr",
+    "root": "מאד"
+  },
+  {
+    "hebrew": "לָכֵן / עַל־כֵּן",
+    "german": "deshalb",
+    "root": "לכן עלכן"
+  },
+  {
+    "hebrew": "כָּבֵד",
+    "german": "schwer",
+    "root": "כבד"
+  },
+  {
+    "hebrew": "לָבֵשׁ + Akk.",
+    "german": "sich bekleiden mit",
+    "root": "לבש"
+  },
+  {
+    "hebrew": "קרב",
+    "german": "nahe sein / sich nähern",
+    "root": "קרב"
+  },
+  {
+    "hebrew": "קָרוֺב",
+    "german": "nahe / ein Verwandter",
+    "root": "קרוב"
+  },
+  {
+    "hebrew": "רכב",
+    "german": "reiten / fahren",
+    "root": "רכב"
+  },
+  {
+    "hebrew": "שׁכב",
+    "german": "sich niederlegen / liegen",
+    "root": "שכב"
+  },
+  {
+    "hebrew": "פשׁע בְּ",
+    "german": "brechen mit etw./jmdm. / sich vergehen an / freveln",
+    "root": "פשע ב"
+  },
+  {
+    "hebrew": "קָרע",
+    "german": "er hat zerrissen / entrissen",
+    "root": "קרע"
+  },
+  {
+    "hebrew": "גבהּ",
+    "german": "hoch sein / erhaben sein (pos.) / hochmütig sein (neg.)",
+    "root": "גבה"
+  },
+  {
+    "hebrew": "רוּחַ f.",
+    "german": "Wind / Hauch / Geist (von)",
+    "root": "רוח"
+  },
+  {
+    "hebrew": "חוּץ",
+    "german": "Gasse / draussen (von)",
+    "root": "חוץ"
+  },
+  {
+    "hebrew": "סוּס",
+    "german": "Pferd (von)",
+    "root": "סוס"
+  },
+  {
+    "hebrew": "גּוֹי",
+    "german": "Volk / Nation (von) (meistens Heiden)",
+    "root": "גוי"
+  },
+  {
+    "hebrew": "דּוֹר",
+    "german": "Generation / Geschlecht (von)",
+    "root": "דור"
+  },
+  {
+    "hebrew": "אוֹר",
+    "german": "Licht (von)",
+    "root": "אור"
+  },
+  {
+    "hebrew": "כּוֹחַ",
+    "german": "Kraft (von)",
+    "root": "כח"
+  },
+  {
+    "hebrew": "אֲרוֹן",
+    "german": "Lade / Kasten",
+    "root": "ארון"
+  },
+  {
+    "hebrew": "בְּכֹר",
+    "german": "Erstgeborener (von jemandem)",
+    "root": "בכור"
+  },
+  {
+    "hebrew": "גִּבּוֹר",
+    "german": "Krieger / Held / Starker (von)",
+    "root": "גבור"
+  },
+  {
+    "hebrew": "אֵל",
+    "german": "Gott (von)",
+    "root": "אל"
+  },
+  {
+    "hebrew": "רֵעַ",
+    "german": "Nächster / Freund (von)",
+    "root": "רע"
+  },
+  {
+    "hebrew": "רִאשׁוֹן",
+    "german": "erster / früherer (von)",
+    "root": "ראשון"
+  },
+  {
+    "hebrew": "סָבִיב",
+    "german": "ringsum",
+    "root": "סביב"
+  },
+  {
+    "hebrew": "כִּי אִם",
+    "german": "sondern / ausser",
+    "root": "כי אם"
+  },
+  {
+    "hebrew": "בֶּגֶד",
+    "german": "Kleid (von)",
+    "root": "בגד"
+  },
+  {
+    "hebrew": "בטח בְּ",
+    "german": "vertrauen auf jmdn./etwas",
+    "root": "בטח ב"
+  },
+  {
+    "hebrew": "ברח",
+    "german": "entlaufen / entfliehen",
+    "root": "ברח"
+  },
+  {
+    "hebrew": "זבח",
+    "german": "opfern / schlachten",
+    "root": "זבח"
+  },
+  {
+    "hebrew": "זֶבַח",
+    "german": "(Schlacht‐)Opfer",
+    "root": "זבח"
+  },
+  {
+    "hebrew": "משׁח",
+    "german": "salben",
+    "root": "משח"
+  },
+  {
+    "hebrew": "מָשִׁיחַ",
+    "german": "Gesalbter",
+    "root": "משיח"
+  },
+  {
+    "hebrew": "פתח",
+    "german": "öffnen",
+    "root": "פתח"
+  },
+  {
+    "hebrew": "פֶּתַח",
+    "german": "Öffnung / Eingang / Tür",
+    "root": "פתח"
+  },
+  {
+    "hebrew": "סלח לְ",
+    "german": "etw. vergeben",
+    "root": "סלח ל"
+  },
+  {
+    "hebrew": "רצח",
+    "german": "töten / morden",
+    "root": "רצח"
+  },
+  {
+    "hebrew": "שׂמח",
+    "german": "sich freuen",
+    "root": "שמח"
+  },
+  {
+    "hebrew": "שִׂמְחָה",
+    "german": "Freude",
+    "root": "שמחה"
+  },
+  {
+    "hebrew": "שׁכח",
+    "german": "vergessen",
+    "root": "שכח"
+  },
+  {
+    "hebrew": "שׁלח",
+    "german": "senden",
+    "root": "שלח"
+  },
+  {
+    "hebrew": "פֶּה",
+    "german": "Mund (Öffnung / Befehl)",
+    "root": "פה"
+  },
+  {
+    "hebrew": "מַיִם (dual)",
+    "german": "Wasser",
+    "root": "מים"
+  },
+  {
+    "hebrew": "שָׁמַיִם (dual)",
+    "german": "Himmel",
+    "root": "שמים"
+  },
+  {
+    "hebrew": "שַׁבָּת",
+    "german": "Sabbat",
+    "root": "שבת"
+  },
+  {
+    "hebrew": "עוֹלָם",
+    "german": "Ewigkeit",
+    "root": "עולם"
+  },
+  {
+    "hebrew": "בָּרוּךְ (Part.pass.)",
+    "german": "gesegnet / gepriesen",
+    "root": "ברוך"
+  },
+  {
+    "hebrew": "רַב",
+    "german": "zahlreich --> viel / gross / genug",
+    "root": "רב"
+  },
+  {
+    "hebrew": "גֵּר",
+    "german": "Fremdling / Schutzbürger",
+    "root": "גר"
+  },
+  {
+    "hebrew": "אֵם",
+    "german": "Mutter (von)",
+    "root": "אם"
+  },
+  {
+    "hebrew": "אַחֵר",
+    "german": "anderer",
+    "root": "אחר"
+  },
+  {
+    "hebrew": "מִלְחָמָה",
+    "german": "Kampf / Krieg",
+    "root": "מלחמה"
+  },
+  {
+    "hebrew": "שׁבע בְּ ni.",
+    "german": "schwören bei etw./jmdm.",
+    "root": "שבע ב"
+  },
+  {
+    "hebrew": "שׁאר ni.",
+    "german": "übrigbleiben",
+    "root": "שאר"
+  },
+  {
+    "hebrew": "שְׁאֵרִית f. שְׁאָר m.",
+    "german": "Rest",
+    "root": "שארית שאר"
+  },
+  {
+    "hebrew": "מלט ni.",
+    "german": "entrinnen / sich retten",
+    "root": "מלט"
+  },
+  {
+    "hebrew": "פלא ni.",
+    "german": "ungewöhnlich sein --> wunderbar / zu schwer sein",
+    "root": "פלא"
+  },
+  {
+    "hebrew": "נִפְלָאוֹת",
+    "german": "Wunder",
+    "root": "פלא"
+  },
+  {
+    "hebrew": "קבץ",
+    "german": "sammeln",
+    "root": "קבץ"
+  },
+  {
+    "hebrew": "קָרָא",
+    "german": "er hat gelesen / gerufen / genannt",
+    "root": "קרא"
+  },
+  {
+    "hebrew": "נשׂא",
+    "german": "erheben / tragen / nehmen",
+    "root": "נשא"
+  },
+  {
+    "hebrew": "מצא",
+    "german": "finden / antreffen",
+    "root": "מצא"
+  },
+  {
+    "hebrew": "מָלֵא",
+    "german": "voll sein/werden / (einen Raum) erfüllen",
+    "root": "מלא"
+  },
+  {
+    "hebrew": "שַׂר",
+    "german": "Beamter / Oberster / Fürst",
+    "root": "שר"
+  },
+  {
+    "hebrew": "יָם",
+    "german": "Meer / Westen",
+    "root": "ים"
+  },
+  {
+    "hebrew": "אַף",
+    "german": "Nase / Zorn",
+    "root": "אף"
+  },
+  {
+    "hebrew": "רַע",
+    "german": "böse / schlecht",
+    "root": "רע"
+  },
+  {
+    "hebrew": "רָעָה",
+    "german": "Bosheit / Böses / Unheil",
+    "root": "רעה"
+  },
+  {
+    "hebrew": "כַּף f.",
+    "german": "Handfläche / Hand",
+    "root": "כף"
+  },
+  {
+    "hebrew": "פַּר",
+    "german": "(junger) Stier",
+    "root": "פר"
+  },
+  {
+    "hebrew": "חַי",
+    "german": "lebendig",
+    "root": "חי"
+  },
+  {
+    "hebrew": "חַיָּה",
+    "german": "lebendig (f.) --> Lebewesen / (wildlebendes) Tier",
+    "root": "חי"
+  },
+  {
+    "hebrew": "לְבַד",
+    "german": "allein",
+    "root": "בד"
+  },
+  {
+    "hebrew": "לְבַד מִן / מִלְּבַד",
+    "german": "ausser / abgesehen von",
+    "root": "לבד מן מלבד"
+  },
+  {
+    "hebrew": "רֹב",
+    "german": "Menge",
+    "root": "רב"
+  },
+  {
+    "hebrew": "חֶרֶב f.",
+    "german": "Schwert",
+    "root": "חרב"
+  },
+  {
+    "hebrew": "חֲלוֹם f.",
+    "german": "Traum",
+    "root": "חלום"
+  },
+  {
+    "hebrew": "לַיְלָה (m.!)",
+    "german": "Nacht",
+    "root": "לילה"
+  },
+  {
+    "hebrew": "כָּבוֹד",
+    "german": "Gewicht / Ehre / Herrlichkeit",
+    "root": "כבוד"
+  },
+  {
+    "hebrew": "מָקוֹם",
+    "german": "Ort / Platz / Stelle",
+    "root": "מקום"
+  },
+  {
+    "hebrew": "תְּפִלָּה",
+    "german": "Gebet",
+    "root": "תפלה"
+  },
+  {
+    "hebrew": "אֶחָד",
+    "german": "einer / \"1\"",
+    "root": "אחד"
+  },
+  {
+    "hebrew": "בַּעַל",
+    "german": "Besitzer / Herr / \"Baal\"",
+    "root": "בעל"
+  },
+  {
+    "hebrew": "רֶגֶל f.",
+    "german": "Fuss",
+    "root": "רגל"
+  },
+  {
+    "hebrew": "עֶבֶד",
+    "german": "Knecht / Sklave / Diener (von)",
+    "root": "עבד"
+  },
+  {
+    "hebrew": "נֶפֶשׁ f.",
+    "german": "Seele / Leben",
+    "root": "נפש"
+  },
+  {
+    "hebrew": "דֶּרֶךְ",
+    "german": "Weg / Wandel / Reise",
+    "root": "דרך"
+  },
+  {
+    "hebrew": "אֶלֶף",
+    "german": "1000 / Tausendschaft / Sippe",
+    "root": "אלף"
+  },
+  {
+    "hebrew": "אֶבֶן f.",
+    "german": "Stein",
+    "root": "אבן"
+  },
+  {
+    "hebrew": "חֶסֶד",
+    "german": "Gnade / Güte",
+    "root": "חסד"
+  },
+  {
+    "hebrew": "שֶׁמֶן",
+    "german": "Öl / Fett",
+    "root": "שמן"
+  },
+  {
+    "hebrew": "עֶרֶב",
+    "german": "Abend",
+    "root": "ערב"
+  },
+  {
+    "hebrew": "עֶצֶם",
+    "german": "Knochen / Gebein",
+    "root": "עצם"
+  },
+  {
+    "hebrew": "לֶחֶם",
+    "german": "Brot / Speise / Nahrung",
+    "root": "לחם"
+  },
+  {
+    "hebrew": "נַחַל",
+    "german": "Bachtal / Bach",
+    "root": "נחל"
+  },
+  {
+    "hebrew": "פַּעַם",
+    "german": "Mal (im Sinn von „einmal, zweimal etc.\")",
+    "root": "פעם"
+  },
+  {
+    "hebrew": "שַׁעַר",
+    "german": "Tor",
+    "root": "שער"
+  },
+  {
+    "hebrew": "בֹּקֶר",
+    "german": "Morgen (von)",
+    "root": "בקר"
+  },
+  {
+    "hebrew": "בָּשָׂר",
+    "german": "Fleisch",
+    "root": "בשר"
+  },
+  {
+    "hebrew": "פָּנִים",
+    "german": "Angesicht / Vorderseite / Oberfläche",
+    "root": "פנה"
+  },
+  {
+    "hebrew": "אֱנוֹשׁ",
+    "german": "Mensch / Menschen (eher poetisch)",
+    "root": "אנוש"
+  },
+  {
+    "hebrew": "מָלֵא",
+    "german": "voll",
+    "root": "מלא"
+  },
+  {
+    "hebrew": "בדל hi.",
+    "german": "trennen / sondern / aussondern",
+    "root": "בדל"
+  },
+  {
+    "hebrew": "סתר hi.",
+    "german": "verbergen",
+    "root": "סתר"
+  },
+  {
+    "hebrew": "שׁחת hi.",
+    "german": "verderben / vernichten",
+    "root": "שחת"
+  },
+  {
+    "hebrew": "שׁכם hi.",
+    "german": "früh aufstehen / früh tun",
+    "root": "שכם"
+  },
+  {
+    "hebrew": "שׁלך hi.",
+    "german": "werfen",
+    "root": "שלך"
+  },
+  {
+    "hebrew": "שׁמד hi.",
+    "german": "vertilgen / zerstören",
+    "root": "שמד"
+  },
+  {
+    "hebrew": "רחק",
+    "german": "fern sein",
+    "root": "רחק"
+  },
+  {
+    "hebrew": "כפר עַל im pi.",
+    "german": "Sühne schaffen für jmdn.",
+    "root": "כפר על"
+  },
+  {
+    "hebrew": "שׁלם im pi.",
+    "german": "ersetzen / vergelten",
+    "root": "שלם"
+  },
+  {
+    "hebrew": "זמר im pi.",
+    "german": "singen / spielen / preisen",
+    "root": "זמר"
+  },
+  {
+    "hebrew": "מִזְמוֹר",
+    "german": "Psalm",
+    "root": "מזמור"
+  },
+  {
+    "hebrew": "כבס im pi.",
+    "german": "waschen",
+    "root": "כבס"
+  },
+  {
+    "hebrew": "ספר",
+    "german": "zählen",
+    "root": "ספר"
+  },
+  {
+    "hebrew": "למד",
+    "german": "lernen",
+    "root": "למד"
+  },
+  {
+    "hebrew": "גדל",
+    "german": "gross sein",
+    "root": "גדל"
+  },
+  {
+    "hebrew": "קֶרֶב",
+    "german": "Inneres / Eingeweide / Mitte",
+    "root": "קרב"
+  },
+  {
+    "hebrew": "בְּקֶרֶב",
+    "german": "inmitten / mitten unter",
+    "root": "קרב"
+  },
+  {
+    "hebrew": "שֶׁמֶשׁ",
+    "german": "Sonne",
+    "root": "שמש"
+  },
+  {
+    "hebrew": "רֶכֶב",
+    "german": "(Streit-)Wagen (kollektiv)",
+    "root": "רכב"
+  },
+  {
+    "hebrew": "כֶּבֶשׂ",
+    "german": "junger Widder / Lamm",
+    "root": "כבש"
+  },
+  {
+    "hebrew": "כִּבְשָׂה",
+    "german": "junges Schaf",
+    "root": "כבשה"
+  },
+  {
+    "hebrew": "שֵׁבֶט",
+    "german": "Stab / Stamm",
+    "root": "שבט"
+  },
+  {
+    "hebrew": "קֹדֶשׁ",
+    "german": "Heiligtum",
+    "root": "קדש"
+  },
+  {
+    "hebrew": "אֹהֶל",
+    "german": "Zelt",
+    "root": "אהל"
+  },
+  {
+    "hebrew": "אֹזֶן f.",
+    "german": "Ohr",
+    "root": "אזן"
+  },
+  {
+    "hebrew": "חֹדֶשׁ",
+    "german": "Monat / Neumond",
+    "root": "חדש"
+  },
+  {
+    "hebrew": "נְחֹשֶׁת",
+    "german": "Erz / Kupfer / Bronze",
+    "root": "נחשת"
+  },
+  {
+    "hebrew": "אֹרֶךְ",
+    "german": "Länge",
+    "root": "ארך"
+  },
+  {
+    "hebrew": "רֹחַב",
+    "german": "Breite",
+    "root": "רחב"
+  },
+  {
+    "hebrew": "שֹׁרֶשׁ",
+    "german": "Wurzel",
+    "root": "שרש"
+  },
+  {
+    "hebrew": "רָשָׁע",
+    "german": "Frevler / Gottloser",
+    "root": "רשע"
+  },
+  {
+    "hebrew": "מִשְׁפָּט",
+    "german": "Gericht / Rechtssache / Recht",
+    "root": "משפט"
+  },
+  {
+    "hebrew": "יֶלֶד",
+    "german": "Kind / Knabe",
+    "root": "ילד"
+  },
+  {
+    "hebrew": "עוֹד",
+    "german": "Dauer --> noch / nochmals",
+    "root": "עוד"
+  },
+  {
+    "hebrew": "עֵד",
+    "german": "Zeuge",
+    "root": "עד"
+  },
+  {
+    "hebrew": "יצב im hitp.",
+    "german": "sich hinstellen",
+    "root": "יצב"
+  },
+  {
+    "hebrew": "חטא",
+    "german": "sich verfehlen / sündigen",
+    "root": "חטא"
+  },
+  {
+    "hebrew": "ברא",
+    "german": "schaffen / erschaffen (nur von Gott gesagt)",
+    "root": "ברא"
+  },
+  {
+    "hebrew": "קנא im pi.",
+    "german": "eifersüchtig sein / eifern",
+    "root": "קנא"
+  },
+  {
+    "hebrew": "שׂנא",
+    "german": "hassen / weniger gern haben",
+    "root": "שנא"
+  },
+  {
+    "hebrew": "עַיִן f.",
+    "german": "Auge / Quelle",
+    "root": "עין"
+  },
+  {
+    "hebrew": "אַיִל",
+    "german": "Widder",
+    "root": "איל"
+  },
+  {
+    "hebrew": "אָוֶן",
+    "german": "Unheil",
+    "root": "און"
+  },
+  {
+    "hebrew": "פְּרִי",
+    "german": "Frucht",
+    "root": "פרי"
+  },
+  {
+    "hebrew": "חֲצִי",
+    "german": "Hälfte / Mitte",
+    "root": "חצי"
+  },
+  {
+    "hebrew": "כְּלִי",
+    "german": "Gerät --> Gefäss / Werkzeug / Waffe",
+    "root": "כלי"
+  },
+  {
+    "hebrew": "אֲרִי / אַרְיֵה",
+    "german": "Löwe",
+    "root": "ארי אריה"
+  },
+  {
+    "hebrew": "דְּבַשׁ",
+    "german": "Honig",
+    "root": "דבש"
+  },
+  {
+    "hebrew": "עָוֹן",
+    "german": "Schuld --> Sünde / Strafe",
+    "root": "עון"
+  },
+  {
+    "hebrew": "קָדוֹשׁ",
+    "german": "heilig / ein Heiliger",
+    "root": "קדוש"
+  },
+  {
+    "hebrew": "מָחָר",
+    "german": "morgen",
+    "root": "מחר"
+  },
+  {
+    "hebrew": "בקשׁ im pi.",
+    "german": "suchen",
+    "root": "בקש"
+  },
+  {
+    "hebrew": "כָּבֵד",
+    "german": "schwer sein / schwer werden",
+    "root": "כבד"
+  },
+  {
+    "hebrew": "ספר im pi.",
+    "german": "erzählen",
+    "root": "ספר"
+  },
+  {
+    "hebrew": "קדשׁ",
+    "german": "heilig sein/werden",
+    "root": "קדש"
+  },
+  {
+    "hebrew": "טָמֵא",
+    "german": "unrein sein",
+    "root": "טמא"
+  },
+  {
+    "hebrew": "ברך im pi.",
+    "german": "segnen / preisen",
+    "root": "ברך"
+  },
+  {
+    "hebrew": "בְּרָכָה",
+    "german": "Segen",
+    "root": "ברכה"
+  },
+  {
+    "hebrew": "שׁרת im pi.",
+    "german": "dienen / Dienst tun",
+    "root": "שרת"
+  },
+  {
+    "hebrew": "גרשׁ im pi.",
+    "german": "vertreiben",
+    "root": "גרש"
+  },
+  {
+    "hebrew": "חֶרְפָּה",
+    "german": "Schmach / Schmähung",
+    "root": "חרפה"
+  },
+  {
+    "hebrew": "מאן im pi.",
+    "german": "sich weigern",
+    "root": "מאן"
+  },
+  {
+    "hebrew": "נאץ im pi.",
+    "german": "verachten / verschmähen / verwerfen",
+    "root": "נאץ"
+  },
+  {
+    "hebrew": "מהר im pi.",
+    "german": "sich beeilen / eilends/rasch (tun)",
+    "root": "מהר"
+  },
+  {
+    "hebrew": "נחם pi.",
+    "german": "trösten",
+    "root": "נחם"
+  },
+  {
+    "hebrew": "מִדְבָּר",
+    "german": "Wüste / Steppe",
+    "root": "מדבר"
+  },
+  {
+    "hebrew": "מַלְאָךְ",
+    "german": "Bote / Engel",
+    "root": "מלאך"
+  },
+  {
+    "hebrew": "מִשְׁכָּן",
+    "german": "Wohnung",
+    "root": "משכן"
+  },
+  {
+    "hebrew": "מִסְפָּר",
+    "german": "Zahl / Aufzählung",
+    "root": "מספר"
+  },
+  {
+    "hebrew": "(מִזְרָח (הַשֶּׁמֶשׁ",
+    "german": "Sonnenaufgang / Osten",
+    "root": "מזרח השמש"
+  },
+  {
+    "hebrew": "מִקְדָּשׁ",
+    "german": "Heiligtum",
+    "root": "מקדש"
+  },
+  {
+    "hebrew": "הֵיכָל",
+    "german": "Palast / Tempel",
+    "root": "היכל"
+  },
+  {
+    "hebrew": "קָרְבָּן",
+    "german": "Darbringung",
+    "root": "קרבן"
+  },
+  {
+    "hebrew": "גּוֹרָל",
+    "german": "Los / Losanteil / Geschick",
+    "root": "גורל"
+  },
+  {
+    "hebrew": "שׁוֹפָר",
+    "german": "Horn",
+    "root": "שפר"
+  },
+  {
+    "hebrew": "שֻׁלְחָן",
+    "german": "Tisch",
+    "root": "שלחן"
+  },
+  {
+    "hebrew": "כִּכָּר",
+    "german": "runde Scheibe --> Talent (Münze)",
+    "root": "ככר"
+  },
+  {
+    "hebrew": "אֱמֶת",
+    "german": "Festigkeit --> Zuverlässigkeit / Beständigkeit / Treue / Wahrheit",
+    "root": "אמת"
+  },
+  {
+    "hebrew": "תָּמִים (Sg.)",
+    "german": "vollständig / untadelig / aufrichtig / fehlerlos",
+    "root": "תמים"
+  },
+  {
+    "hebrew": "אִם",
+    "german": "wenn / ob / oder",
+    "root": "אם"
+  },
+  {
+    "hebrew": "חזק",
+    "german": "stark / fest / hart sein",
+    "root": "חזק"
+  },
+  {
+    "hebrew": "תּוֹרָה",
+    "german": "Gesetz / Weisung / Lehre",
+    "root": "תורה"
+  },
+  {
+    "hebrew": "הלל im pi.",
+    "german": "loben / preisen",
+    "root": "הלל"
+  },
+  {
+    "hebrew": "מִצְוָה",
+    "german": "Gebot",
+    "root": "מצוה"
+  },
+  {
+    "hebrew": "אָמֵן",
+    "german": "gewiss",
+    "root": "אמן"
+  },
+  {
+    "hebrew": "אָמַר",
+    "german": "er hat gesagt",
+    "root": "אמר"
+  },
+  {
+    "hebrew": "וַיְדַבֵּר",
+    "german": "und er hat geredet",
+    "root": "דבר"
+  },
+  {
+    "hebrew": "עָשָׂה",
+    "german": "er hat getan / gemacht",
+    "root": "עשה"
+  },
+  {
+    "hebrew": "בָּא",
+    "german": "er ist gekommen / hineingegangen",
+    "root": "בוא"
+  },
+  {
+    "hebrew": "מֶלֶךְ",
+    "german": "König",
+    "root": "מלך"
+  },
+  {
+    "hebrew": "נָבִיא",
+    "german": "Prophet",
+    "root": "נביא"
+  },
+  {
+    "hebrew": "כֹּל",
+    "german": "Gesamtheit",
+    "root": "כל"
+  },
+  {
+    "hebrew": "אֱלֹהִים",
+    "german": "Götter / Gott",
+    "root": "אלהים"
+  },
+  {
+    "hebrew": "בֶּן",
+    "german": "Sohn von",
+    "root": "בן"
+  },
+  {
+    "hebrew": "בֵּן",
+    "german": "Sohn",
+    "root": "בן"
+  },
+  {
+    "hebrew": "בַּיִת",
+    "german": "Haus",
+    "root": "בית"
+  },
+  {
+    "hebrew": "בֵּית",
+    "german": "Haus von",
+    "root": "בית"
+  },
+  {
+    "hebrew": "נָתַן",
+    "german": "geben / einsetzen",
+    "root": "נתן"
+  },
+  {
+    "hebrew": "לָקַח",
+    "german": "nehmen",
+    "root": "לקח"
+  },
+  {
+    "hebrew": "הָיָה",
+    "german": "er ist geworden / geschehen",
+    "root": "היה"
+  },
+  {
+    "hebrew": "רָאָה",
+    "german": "sehen",
+    "root": "ראה"
+  },
+  {
+    "hebrew": "שָמַע",
+    "german": "hören",
+    "root": "שמע"
+  },
+  {
+    "hebrew": "גָּדוֺל",
+    "german": "gross",
+    "root": "גדול"
+  },
+  {
+    "hebrew": "–מָה",
+    "german": "was?",
+    "root": "מה"
+  },
+  {
+    "hebrew": "זרע",
+    "german": "säen",
+    "root": "זרע"
+  },
+  {
+    "hebrew": "עַמּוּד",
+    "german": "Säule / Pfeiler (von)",
+    "root": "עמוד"
+  },
+  {
+    "hebrew": "חַיִל",
+    "german": "Kraft / Fähigkeit / Vermögen / Heer(esstärke) (von)",
+    "root": "חיל"
+  },
+  {
+    "hebrew": "למד pi.",
+    "german": "lehren",
+    "root": "למד"
+  },
+  {
+    "hebrew": "גדל pi.",
+    "german": "gross machen / gross ziehen / jmdn. für gross erklären (deklarativ)",
+    "root": "גדל"
+  },
+  {
+    "hebrew": "חַטָּאת f.",
+    "german": "Sünde / Sündopfer",
+    "root": "חטאת"
+  },
+  {
+    "hebrew": "קִנְאָה f.",
+    "german": "Eifer / Leidenschaft",
+    "root": "קנאה"
+  },
+  {
+    "hebrew": "בְּתוֹךְ",
+    "german": "in der Mitte von / mitten in",
+    "root": "תוך"
+  },
+  {
+    "hebrew": "אֹהֶל מוֹעֵד",
+    "german": "Zelt der Begegnung / Stiftshütte",
+    "root": "אהל מועד"
+  },
+  {
+    "hebrew": "כרת hi.",
+    "german": "ausrotten",
+    "root": "כרת"
+  },
+  {
+    "hebrew": "מלך hi.",
+    "german": "als König einsetzen",
+    "root": "מלך"
+  },
+  {
+    "hebrew": "קרב hi.",
+    "german": "herzubringen",
+    "root": "קרב"
+  },
+  {
+    "hebrew": "בוֹא",
+    "german": "kommen / hineingehen / eintreffen (Ereignis) / untergehen (Sonne)",
+    "root": "בוא"
+  },
+  {
+    "hebrew": "בוֹא hi.",
+    "german": "bringen",
+    "root": "בוא"
+  },
+  {
+    "hebrew": "הָלַךְ",
+    "german": "er ist gegangen",
+    "root": "הלך"
+  },
+  {
+    "hebrew": "כבד pi.",
+    "german": "ehren",
+    "root": "כבד"
+  },
+  {
+    "hebrew": "פלט im pi.",
+    "german": "retten",
+    "root": "פלט"
+  },
+  {
+    "hebrew": "הלך pi.",
+    "german": "hin- und hergehen",
+    "root": "הלך"
+  },
+  {
+    "hebrew": "הלך hitp.",
+    "german": "wandeln",
+    "root": "הלך"
+  },
+  {
+    "hebrew": "שׁמר hitp.",
+    "german": "sich hüten",
+    "root": "שמר"
+  },
+  {
+    "hebrew": "לֵךְ",
+    "german": "Geh! (m.)",
+    "root": "הלך"
+  },
+  {
+    "hebrew": "בֹּא",
+    "german": "Komm! / Geh hinein! (m.)",
+    "root": "בוא"
+  },
+  {
+    "hebrew": "תֵּן",
+    "german": "Gib! (m.)",
+    "root": "נתן"
+  },
+  {
+    "hebrew": "קַח",
+    "german": "Nimm! (m.)",
+    "root": "לקח"
+  },
+  {
+    "hebrew": "אֱמֹר",
+    "german": "Sag! (m.)",
+    "root": "אמר"
+  },
+  {
+    "hebrew": "דַּבֵּר",
+    "german": "Sprich! (m.)",
+    "root": "דבר"
+  },
+  {
+    "hebrew": "כָּתב",
+    "german": "er hat geschrieben",
+    "root": "כתב"
+  },
+  {
+    "hebrew": "אִתּוֹ",
+    "german": "bei / mit ihm",
+    "root": "את"
+  },
+  {
+    "hebrew": "לְפָנָיו",
+    "german": "vor ihm",
+    "root": "פנה"
+  },
+  {
+    "hebrew": "מִמֶּנּוּ",
+    "german": "von ihm / wegen ihm",
+    "root": "מן"
+  },
+  {
+    "hebrew": "הָהָר",
+    "german": "der Berg",
+    "root": "הר"
+  },
+  {
+    "hebrew": "הֶהָרִים",
+    "german": "die Berge",
+    "root": "הר"
+  },
+  {
+    "hebrew": "חַיִּים",
+    "german": "Leben",
+    "root": "חי"
+  },
+  {
+    "hebrew": "הֶחָכָם",
+    "german": "der Weise",
+    "root": "חכם"
+  },
+  {
+    "hebrew": "לְפִי חֶרֶב",
+    "german": "mit der Schärfe des Schwertes",
+    "root": "לפי חרב"
+  },
+  {
+    "hebrew": "אָדוֺן",
+    "german": "Herr",
+    "root": "אדון"
+  },
+  {
+    "hebrew": "צֶדֶק",
+    "german": "Gerechtigkeit / Heil",
+    "root": "צדק"
+  },
+  {
+    "hebrew": "אִמִּי",
+    "german": "meine Mutter",
+    "root": "אם"
+  },
+  {
+    "hebrew": "ידע",
+    "german": "wissen / (tief) erkennen",
+    "root": "ידע"
+  },
+  {
+    "hebrew": "לוֹ",
+    "german": "für ihn / ihm",
+    "root": "ל"
+  },
+  {
+    "hebrew": "אֵלָיו",
+    "german": "zu ihm",
+    "root": "אל"
+  },
+  {
+    "hebrew": "יִשְׂרָאֵל",
+    "german": "Israel",
+    "root": "ישראל"
+  },
+  {
+    "hebrew": "כזב im pi.",
+    "german": "lügen",
+    "root": "כזב"
+  },
+  {
+    "hebrew": "כָּזָב",
+    "german": "Lüge",
+    "root": "כזב"
+  },
+  {
+    "hebrew": "מְבוֹא הַשֶּׁמֶשׁ",
+    "german": "Sonnenuntergang",
+    "root": "מבוא השמש"
+  },
+  {
+    "hebrew": "שֶׁקֶר",
+    "german": "Lüge / Trug / Täuschung",
+    "root": "שקר"
+  },
+  {
+    "hebrew": "נְשֵׁי",
+    "german": "Frauen von",
+    "root": "אשה"
+  },
+  {
+    "hebrew": "פְּלִשְׁתִּים",
+    "german": "Philister",
+    "root": "פלשתי"
+  },
+  {
+    "hebrew": "אֲחִי",
+    "german": "Bruder von",
+    "root": "אח"
+  },
+  {
+    "hebrew": "מִכֹּל שִׁבְטֵי יִשְׂרָאֵל",
+    "german": "aus allen Stämmen Israels",
+    "root": "מכל שבטי ישראל"
+  },
+  {
+    "hebrew": "אִישׁ אֶל־אָחִיו",
+    "german": "einer zum anderen",
+    "root": "איש אלאחיו"
+  },
+  {
+    "hebrew": "יָמִים",
+    "german": "Tage",
+    "root": "יום"
+  },
+  {
+    "hebrew": "בֶּן־שָׁנָה",
+    "german": "einjährig",
+    "root": "בןשנה"
+  },
+  {
+    "hebrew": "חוֹמָה",
+    "german": "(Stadt-)Mauer",
+    "root": "חומה"
+  },
+  {
+    "hebrew": "בַּרְזֶל",
+    "german": "Eisen",
+    "root": "ברזל"
+  },
+  {
+    "hebrew": "יצא",
+    "german": "hinausgehen",
+    "root": "יצא"
+  },
+  {
+    "hebrew": "בנה",
+    "german": "bauen",
+    "root": "בנה"
+  },
+  {
+    "hebrew": "שֹׁפֵט",
+    "german": "Richter (von)",
+    "root": "שפט"
+  },
+  {
+    "hebrew": "הִנְנִי",
+    "german": "siehe, ich ... / hier bin ich",
+    "root": "הן"
+  },
+  {
+    "hebrew": "כֹּה אָמַר יְהוָה",
+    "german": "So spricht der HERR",
+    "root": "כה אמר יהוה"
+  },
+  {
+    "hebrew": "אַפַּיִם",
+    "german": "Nase / Zorn / Angesicht",
+    "root": "אף"
+  },
+  {
+    "hebrew": "כַּף רֶגֶל",
+    "german": "Fusssohle",
+    "root": "כף רגל"
+  },
+  {
+    "hebrew": "פָּרָה",
+    "german": "(junge) Kuh",
+    "root": "פרה"
+  },
+  {
+    "hebrew": "חֹק חֻקָּה",
+    "german": "Satzung / Festgesetztes / Gesetz",
+    "root": "חק חקה"
+  },
+  {
+    "hebrew": "חרף im pi.",
+    "german": "schmähen",
+    "root": "חרף"
+  },
+  {
+    "hebrew": "אֲשֶׁר",
+    "german": "wovon gilt",
+    "root": "אשר"
+  },
+  {
+    "hebrew": "אוֹת f.",
+    "german": "Zeichen",
+    "root": "אות"
+  },
+  {
+    "hebrew": "מוֹפֵת",
+    "german": "Wunder",
+    "root": "מופת"
+  },
+  {
+    "hebrew": "שָׁוְא",
+    "german": "Trug / Falschheit / Nichtigkeit",
+    "root": "שוא"
+  },
+  {
+    "hebrew": "שְׁנַיִם",
+    "german": "zwei (m.)",
+    "root": "שנים"
+  },
+  {
+    "hebrew": "יוֹמָם",
+    "german": "bei Tag / tagsüber",
+    "root": "יומם"
+  },
+  {
+    "hebrew": "הָאֶחָד ... הָאֶחָד",
+    "german": "der eine ... der andere",
+    "root": "האחד … האחד"
+  },
+  {
+    "hebrew": "פלל אֶל־ (hitp.)",
+    "german": "beten zu jmdm./etwas",
+    "root": "פלל אל"
+  },
+  {
+    "hebrew": "קדשׁ pi.",
+    "german": "heiligen",
+    "root": "קדש"
+  },
+  {
+    "hebrew": "קדשׁ hitp.",
+    "german": "sich heiligen",
+    "root": "קדש"
+  },
+  {
+    "hebrew": "הלל hitp.",
+    "german": "sich rühmen",
+    "root": "הלל"
+  },
+  {
+    "hebrew": "טמא pi.",
+    "german": "unrein machen / verunreinigen",
+    "root": "טמא"
+  },
+  {
+    "hebrew": "תמא hitp.",
+    "german": "sich verunreinigen",
+    "root": "תמא"
+  },
+  {
+    "hebrew": "רפא",
+    "german": "heilen",
+    "root": "רפא"
+  },
+  {
+    "hebrew": "שִׂנְאָה f.",
+    "german": "Hass",
+    "root": "שנאה"
+  },
+  {
+    "hebrew": "יַיִן",
+    "german": "Wein",
+    "root": "יין"
+  },
+  {
+    "hebrew": "תָּוֶךְ",
+    "german": "Mitte",
+    "root": "תוך"
+  },
+  {
+    "hebrew": "כֵּלִים",
+    "german": "Geräte",
+    "root": "כלי"
+  },
+  {
+    "hebrew": "עָוֶל",
+    "german": "Unrecht",
+    "root": "עול"
+  },
+  {
+    "hebrew": "הֵן",
+    "german": "siehe!",
+    "root": "הן"
+  },
+  {
+    "hebrew": "בַּעַד",
+    "german": "zugunsten von / für",
+    "root": "בעד"
+  },
+  {
+    "hebrew": "שָׁמַע אֵלָיו",
+    "german": "er gehorchte ihm / hörte auf ihn",
+    "root": "שמע אליו"
+  },
+  {
+    "hebrew": "אֹתוֹ",
+    "german": "ihn",
+    "root": "את"
+  },
+  {
+    "hebrew": "כָּמֹהוּ",
+    "german": "wie er",
+    "root": "כמו"
+  },
+  {
+    "hebrew": "עָלָיו",
+    "german": "auf ihm",
+    "root": "על"
+  },
+  {
+    "hebrew": "עִמִּי ‮/ עִמָּדִי",
+    "german": "(zusammen) mit/bei mir",
+    "root": "עמי עמדי"
+  },
+  {
+    "hebrew": "תַּחְתָּיו",
+    "german": "unter ihm / an seiner Stelle",
+    "root": "תחת"
+  },
+  {
+    "hebrew": "זֶה",
+    "german": "dieser (m.Sg.)",
+    "root": "זה"
+  },
+  {
+    "hebrew": "זֹאת",
+    "german": "diese / diese (f.Sg.)",
+    "root": "זאת"
+  },
+  {
+    "hebrew": "הָהֵמָּה הָהֵם",
+    "german": "jene (Pl.m.)",
+    "root": "ההמה ההם"
+  },
+  {
+    "hebrew": "אִישׁ",
+    "german": "Mann (von)",
+    "root": "איש"
+  },
+  {
+    "hebrew": "אִשְׁתּוֹ",
+    "german": "seine Frau",
+    "root": "אשה"
+  },
+  {
+    "hebrew": "נָתַן לְאִשָּׁה",
+    "german": "zur Frau geben",
+    "root": "נתן לאשה"
+  },
+  {
+    "hebrew": "לָקַח לְאִשָּׁה",
+    "german": "zur Frau nehmen",
+    "root": "לקח לאשה"
+  },
+  {
+    "hebrew": "בְּנֵי־יִשְׂרָאֵל",
+    "german": "die Söhne Israels / die Israeliten",
+    "root": "בניישראל"
+  },
+  {
+    "hebrew": "בֶּן־בָּקָר",
+    "german": "(einzelnes) Rind",
+    "root": "בןבקר"
+  },
+  {
+    "hebrew": "הָעָם",
+    "german": "das Volk",
+    "root": "עם"
+  },
+  {
+    "hebrew": "עַמִּי",
+    "german": "mein Volk",
+    "root": "עם"
+  },
+  {
+    "hebrew": "וַיְהִי דְבַר יְהוָה",
+    "german": "Da erging das Wort des Herrn (an jemanden)",
+    "root": "ויהי דבר יהוה"
+  },
+  {
+    "hebrew": "אַרְצִי",
+    "german": "mein Land",
+    "root": "ארץ"
+  },
+  {
+    "hebrew": "אָבוֹת",
+    "german": "Väter",
+    "root": "אב"
+  },
+  {
+    "hebrew": "שׂבע",
+    "german": "satt sein/werden",
+    "root": "שבע"
+  },
+  {
+    "hebrew": "גָּבֵהַּ / גָּבֹהַּ",
+    "german": "hoch",
+    "root": "גבה גבה"
+  },
+  {
+    "hebrew": "גְּבוּל",
+    "german": "Grenze / Gebiet (von)",
+    "root": "גבול"
+  },
+  {
+    "hebrew": "הָאָרוֺן",
+    "german": "die Lade",
+    "root": "הארון"
+  },
+  {
+    "hebrew": "אִישׁ אֶל־רֵעֵהוּ",
+    "german": "einer zum anderen",
+    "root": "איש אלרעהו"
+  },
+  {
+    "hebrew": "בָּרִאשׁוֹנָה",
+    "german": "früher / vormals",
+    "root": "ראשון"
+  },
+  {
+    "hebrew": "־נָא",
+    "german": "doch / bitte",
+    "root": "נא"
+  },
+  {
+    "hebrew": "סְבִיבוֹת",
+    "german": "rings ... um",
+    "root": "סביב"
+  },
+  {
+    "hebrew": "לֵב / לֵבָב",
+    "german": "Herz",
+    "root": "לב לבב"
+  },
+  {
+    "hebrew": "שֵׁם",
+    "german": "Name",
+    "root": "שם"
+  },
+  {
+    "hebrew": "עֵת",
+    "german": "Zeit / Zeitpunkt",
+    "root": "עת"
+  },
+  {
+    "hebrew": "יַד",
+    "german": "Hand von",
+    "root": "יד"
+  },
+  {
+    "hebrew": "קשׁב hi.",
+    "german": "aufmerken",
+    "root": "קשב"
+  },
+  {
+    "hebrew": "שׂכל hi.",
+    "german": "Einsicht haben / Erfolg haben",
+    "root": "שכל"
+  },
+  {
+    "hebrew": "שׁבת hi.",
+    "german": "zum Aufhören bringen",
+    "root": "שבת"
+  },
+  {
+    "hebrew": "עַבְדּוֹ",
+    "german": "sein Knecht",
+    "root": "עבד"
+  },
+  {
+    "hebrew": "אֲבַנִים (f.!)",
+    "german": "Steine",
+    "root": "אבנים"
+  },
+  {
+    "hebrew": "הַפַּעַם",
+    "german": "diesmal / endlich",
+    "root": "פעם"
+  },
+  {
+    "hebrew": "לְפָנִים",
+    "german": "früher / ehemals",
+    "root": "פנה"
+  },
+  {
+    "hebrew": "מַמְלָכָה מַמְלֶכֶת",
+    "german": "Königreich / Königsherrschaft",
+    "root": "ממלכה ממלכת"
+  },
+  {
+    "hebrew": "רֵק / רִיק",
+    "german": "leer",
+    "root": "רק ריק"
+  },
+  {
+    "hebrew": "יוֹסֵף",
+    "german": "Josef",
+    "root": "יוסף"
+  },
+  {
+    "hebrew": "יוֹנָתָן",
+    "german": "Jonathan",
+    "root": "יונתן"
+  },
+  {
+    "hebrew": "מֹשֶׁה",
+    "german": "Mose",
+    "root": "משה"
+  },
+  {
+    "hebrew": "דָּוִיד",
+    "german": "David",
+    "root": "דוד"
+  },
+  {
+    "hebrew": "שָׁאוּל",
+    "german": "Saul",
+    "root": "שאול"
+  },
+  {
+    "hebrew": "אֹתוֹ",
+    "german": "ihn",
+    "root": "את"
+  },
+  {
+    "hebrew": "שׁמרוֹן",
+    "german": "Samaria",
+    "root": "שמרון"
+  },
+  {
+    "hebrew": "מצרים",
+    "german": "Ägypten",
+    "root": "מצרים"
+  },
+  {
+    "hebrew": "בּניָמין",
+    "german": "Benjamin",
+    "root": "בנימין"
+  },
+  {
+    "hebrew": "יצחָק",
+    "german": "Isaak",
+    "root": "יצחק"
+  },
+  {
+    "hebrew": "יעקוֹב",
+    "german": "Jakob",
+    "root": "יעקוב"
+  },
+  {
+    "hebrew": "עֵשָו",
+    "german": "Esau",
+    "root": "עשו"
+  },
+  {
+    "hebrew": "יהוֹשׁע",
+    "german": "Josua",
+    "root": "יהושע"
+  },
+  {
+    "hebrew": "אהרן",
+    "german": "Aaron",
+    "root": "אהרן"
+  },
+  {
+    "hebrew": "שׁלמה",
+    "german": "Salomo",
+    "root": "שלמה"
+  },
+  {
+    "hebrew": "אֵל -אל",
+    "german": "zu ... nach / hin (--> Richtung)",
+    "root": "אל אל"
+  },
+  {
+    "hebrew": "כָּל־יִשְׂרָאֵל",
+    "german": "ganz Israel",
+    "root": "כלישראל"
+  },
+  {
+    "hebrew": "אֵלֶּה",
+    "german": "diese (sind)",
+    "root": "אלה"
+  },
+  {
+    "hebrew": "אָנכי",
+    "german": "ich",
+    "root": "אנכי"
+  },
+  {
+    "hebrew": "יָפָה",
+    "german": "schön (f.)",
+    "root": "יפה"
+  },
+  {
+    "hebrew": "יְרוּשָׁלֵם",
+    "german": "Jerusalem",
+    "root": "ירושלם"
+  },
+  {
+    "hebrew": "יהוה",
+    "german": "Jahwe / HERR",
+    "root": "יהוה"
+  },
+  {
+    "hebrew": "מֶלֶךְ",
+    "german": "König (von)",
+    "root": "מלך"
+  },
+  {
+    "hebrew": "הַמֶּלֶךְ",
+    "german": "der König",
+    "root": "מלך"
+  },
+  {
+    "hebrew": "מַלְכָּה",
+    "german": "Königin",
+    "root": "מלך"
+  },
+  {
+    "hebrew": "עֵין",
+    "german": "Auge / Quelle von",
+    "root": "עין"
+  },
+  {
+    "hebrew": "סוּסִים",
+    "german": "Pferde",
+    "root": "סוס"
+  },
+  {
+    "hebrew": "סוּסֵי",
+    "german": "Pferde von",
+    "root": "סוסי"
+  },
+  {
+    "hebrew": "סוּסָה",
+    "german": "Stute",
+    "root": "חצרסוסה"
+  },
+  {
+    "hebrew": "סוּסַת",
+    "german": "Stute von",
+    "root": "סוסת"
+  },
+  {
+    "hebrew": "סוּסוֹת",
+    "german": "Stuten (von)",
+    "root": "סוסות"
+  },
+  {
+    "hebrew": "הֵם",
+    "german": "sie (m.Pl.)",
+    "root": "המה"
+  },
+  {
+    "hebrew": "רֹעֶה",
+    "german": "Hirte",
+    "root": "רעה"
+  },
+  {
+    "hebrew": "צְדָקָה",
+    "german": "Gerechtigkeit",
+    "root": "צדקה"
+  },
+  {
+    "hebrew": "זָכָר",
+    "german": "männlich / Mann",
+    "root": "זכר"
+  },
+  {
+    "hebrew": "הֶחֳלִי",
+    "german": "die Krankheit",
+    "root": "החלי"
+  },
+  {
+    "hebrew": "אֵת / אֶת",
+    "german": "Akkusativ-Zeichen",
+    "root": "את את"
+  },
+  {
+    "hebrew": "ְְַה",
+    "german": "Fragepartikel",
+    "root": "ה"
+  },
+  {
+    "hebrew": "אַיִן אֵין",
+    "german": "es gibt nicht",
+    "root": "אין אין"
+  },
+  {
+    "hebrew": "יֵשׁ",
+    "german": "es gibt",
+    "root": "יש"
+  },
+  {
+    "hebrew": "לֹא עוֹד",
+    "german": "nicht mehr",
+    "root": "לא עוד"
+  },
+  {
+    "hebrew": "אַחֲרִית",
+    "german": "Zukunft / Ende / Nachkommenschaft",
+    "root": "אחרית"
+  },
+  {
+    "hebrew": "אַלְמָנָה",
+    "german": "Witwe",
+    "root": "אלמנה"
+  },
+  {
+    "hebrew": "פַּרְעֹה",
+    "german": "Pharao",
+    "root": "פרעה"
+  },
+  {
+    "hebrew": "עלה",
+    "german": "hinaufgehen",
+    "root": "עלה"
+  },
+  {
+    "hebrew": "פֶּן",
+    "german": "damit/dass nicht / sonst",
+    "root": "פן"
+  },
+  {
+    "hebrew": "בְּלִי",
+    "german": "ohne",
+    "root": "בלי"
+  },
+  {
+    "hebrew": "אֵיננּוּ",
+    "german": "er ist nicht / wir sind nicht",
+    "root": "איננו"
+  },
+  {
+    "hebrew": "אֵינֶנִּי",
+    "german": "ich bin nicht",
+    "root": "אין"
+  },
+  {
+    "hebrew": "זֶרַע",
+    "german": "Same / Nachkommenschaft",
+    "root": "זרע"
+  },
+  {
+    "hebrew": "עבד",
+    "german": "arbeiten / dienen",
+    "root": "עבד"
+  },
+  {
+    "hebrew": "עֲבֹדָה",
+    "german": "Dienst / Arbeit / Gottesdienst",
+    "root": "עבדה"
+  },
+  {
+    "hebrew": "פֶּשַׁע",
+    "german": "Frevel",
+    "root": "פשע"
+  },
+  {
+    "hebrew": "עמד",
+    "german": "hintreten / stehen",
+    "root": "עמד"
+  },
+  {
+    "hebrew": "לְבִלְתִּי",
+    "german": "(um) nicht zu",
+    "root": "בלתי"
+  },
+  {
+    "hebrew": "קָדִים",
+    "german": "Osten / Ostwind",
+    "root": "קדים"
+  },
+  {
+    "hebrew": "קֶדֶם",
+    "german": "Vorzeit / Urzeit / Osten",
+    "root": "קדם"
+  },
+  {
+    "hebrew": "טֶרֶם",
+    "german": "noch nicht",
+    "root": "טרם"
+  },
+  {
+    "hebrew": "בְּ)טֶרֶם)",
+    "german": "ehe / bevor",
+    "root": "בטרם"
+  },
+  {
+    "hebrew": "אָז",
+    "german": "damals / dann",
+    "root": "אז"
+  },
+  {
+    "hebrew": "מֵאָז",
+    "german": "seitdem / seit / früher",
+    "root": "מאז"
+  },
+  {
+    "hebrew": "מֵת",
+    "german": "ein Toter / Sterbender",
+    "root": "מות"
+  },
+  {
+    "hebrew": "לְמַעַן",
+    "german": "um ... willen / damit / sodass",
+    "root": "מען"
+  },
+  {
+    "hebrew": "בַּעְַבוּר",
+    "german": "damit",
+    "root": "בעבור"
+  },
+  {
+    "hebrew": "וַיָּקָם",
+    "german": "und er machte sich auf",
+    "root": "קום"
+  },
+  {
+    "hebrew": "אַחַר",
+    "german": "nach / hinter",
+    "root": "אחר"
+  },
+  {
+    "hebrew": "פעל / עשה",
+    "german": "machen / tun",
+    "root": "פעל עשה"
+  },
+  {
+    "hebrew": "כרת ni.",
+    "german": "ausgerottet werden",
+    "root": "כרת"
+  },
+  {
+    "hebrew": "ni. כבד",
+    "german": "geehrt werden / sich verherrlichen",
+    "root": "כבד"
+  },
+  {
+    "hebrew": "ראה ni.",
+    "german": "sichtbar werden / sich zeigen / erscheinen",
+    "root": "ראה"
+  },
+  {
+    "hebrew": "ענה",
+    "german": "antworten",
+    "root": "ענה"
+  },
+  {
+    "hebrew": "ְענה בּ",
+    "german": "gegen jmdn. aussagen",
+    "root": "ענה ב"
+  },
+  {
+    "hebrew": "חָמָס",
+    "german": "Gewalt(tat)",
+    "root": "חמס"
+  },
+  {
+    "hebrew": "אֹהֶל מוֹעֵד",
+    "german": "Zelt der Begegnung / Stiftshütte",
+    "root": "אהל מועד"
+  },
+  {
+    "hebrew": "כִּמְעַט +Perf.",
+    "german": "fast",
+    "root": "כמעט"
+  },
+  {
+    "hebrew": "גלה",
+    "german": "aufdecken / fortgehen müssen",
+    "root": "גלה"
+  },
+  {
+    "hebrew": "גּוֹלָה / גָּלוּת",
+    "german": "Exulanten / Exil",
+    "root": "גולה גלות"
+  },
+  {
+    "hebrew": "כַּשְׂדִּים",
+    "german": "Chaldäer",
+    "root": "כשדים"
+  },
+  {
+    "hebrew": "פְּלִשְׁתִּים",
+    "german": "Philister",
+    "root": "פלשתי"
+  },
+  {
+    "hebrew": "חיה",
+    "german": "leben / am Leben bleiben",
+    "root": "חיה"
+  },
+  {
+    "hebrew": "מִזְבֵּחַ",
+    "german": "Altar",
+    "root": "מזבח"
+  },
+  {
+    "hebrew": "מִזְבַח",
+    "german": "Altar von",
+    "root": "מזבח"
+  },
+  {
+    "hebrew": "אֹיֵב",
+    "german": "Feind",
+    "root": "איב"
+  },
+  {
+    "hebrew": "כִּסֵּא",
+    "german": "Thron / Sessel",
+    "root": "כסא"
+  },
+  {
+    "hebrew": "חַי יְהוָה",
+    "german": "so wahr der HERR lebt!",
+    "root": "חי יהוה"
+  },
+  {
+    "hebrew": "חָלִילָה לִי",
+    "german": "fern (sei es) mir!",
+    "root": "חלילה לי"
+  },
+  {
+    "hebrew": "יַעַן",
+    "german": "wegen / weil",
+    "root": "יען"
+  },
+  {
+    "hebrew": "עֵקֶב",
+    "german": "Lohn",
+    "root": "עקב"
+  },
+  {
+    "hebrew": "צָפוֹן",
+    "german": "Norden",
+    "root": "צפון"
+  },
+  {
+    "hebrew": "נֶגֶב",
+    "german": "Süden",
+    "root": "נגב"
+  },
+  {
+    "hebrew": "לָשׁוֹן",
+    "german": "Zunge / Sprache",
+    "root": "לשון"
+  },
+  {
+    "hebrew": "הָמוֹן",
+    "german": "Lärm / Menge",
+    "root": "המון"
+  },
+  {
+    "hebrew": "רָצוֹן",
+    "german": "Wohlgefallen",
+    "root": "רצון"
+  },
+  {
+    "hebrew": "רצה + Akk.",
+    "german": "Gefallen haben an etwas",
+    "root": "רצה"
+  },
+  {
+    "hebrew": "מָרוֹם",
+    "german": "Höhe (poetisch)",
+    "root": "מרום"
+  },
+  {
+    "hebrew": "זִכָּרוֹן",
+    "german": "Andenken / Gedächtnis",
+    "root": "זכרון"
+  },
+  {
+    "hebrew": "יָמִין",
+    "german": "rechte Hand / rechte Seite",
+    "root": "ימין"
+  },
+  {
+    "hebrew": "נָשִׂיא",
+    "german": "Fürst / Vorsteher",
+    "root": "נשיא"
+  },
+  {
+    "hebrew": "קָצִיר",
+    "german": "Ernte",
+    "root": "קציר"
+  },
+  {
+    "hebrew": "קצר",
+    "german": "ernten",
+    "root": "קצר"
+  },
+  {
+    "hebrew": "זָקֵן",
+    "german": "alt / ein Alter --> Ältester",
+    "root": "זקן"
+  },
+  {
+    "hebrew": "כָּתֵף",
+    "german": "Schulter / Berghang",
+    "root": "כתף"
+  },
+  {
+    "hebrew": "נָהָר",
+    "german": "Strom / Fluss",
+    "root": "נהר"
+  },
+  {
+    "hebrew": "עָפָר",
+    "german": "Staub (kleinst mögliches Teilchen der Erde)",
+    "root": "עפר"
+  },
+  {
+    "hebrew": "כָּנָף",
+    "german": "Flügel / (Gewand)Zipfel",
+    "root": "כנף"
+  },
+  {
+    "hebrew": "רָעָב",
+    "german": "Hunger / Hungersnot",
+    "root": "רעב"
+  },
+  {
+    "hebrew": "עָנָן",
+    "german": "Wolke / Gewölk",
+    "root": "ענן"
+  },
+  {
+    "hebrew": "חָדָשׁ",
+    "german": "neu / frisch",
+    "root": "חדש"
+  },
+  {
+    "hebrew": "תּוֹעֵבָה",
+    "german": "Greuel / Abscheuliches",
+    "root": "תועבה"
+  },
+  {
+    "hebrew": "צְעָקָה זְעָקָה",
+    "german": "Geschrei / Hilferuf",
+    "root": "צעקה זעקה"
+  },
+  {
+    "hebrew": "זעק / צעק",
+    "german": "rufen / schreien",
+    "root": "זעק צעק"
+  },
+  {
+    "hebrew": "חֵמָה",
+    "german": "Zorn / Erregung",
+    "root": "חמה"
+  },
+  {
+    "hebrew": "נְשָׁמָה",
+    "german": "Wehen / Atem / Hauch",
+    "root": "נשמה"
+  },
+  {
+    "hebrew": "גְּבוּרָה",
+    "german": "Kraft / Macht",
+    "root": "גבורה"
+  },
+  {
+    "hebrew": "יסף",
+    "german": "hinzufügen",
+    "root": "יסף"
+  },
+  {
+    "hebrew": "מָטָר",
+    "german": "Regen",
+    "root": "מטר"
+  },
+  {
+    "hebrew": "לָבָן",
+    "german": "weiss",
+    "root": "לבן"
+  },
+  {
+    "hebrew": "מִדָּה",
+    "german": "Mass / Ausdehnung",
+    "root": "מדה"
+  },
+  {
+    "hebrew": "מדד",
+    "german": "messen",
+    "root": "מדד"
+  },
+  {
+    "hebrew": "מְדִינָה",
+    "german": "Provinz",
+    "root": "מדינה"
+  },
+  {
+    "hebrew": "מוֹקֵשׁ",
+    "german": "Falle",
+    "root": "מוקש"
+  },
+  {
+    "hebrew": "hi. שׁמע",
+    "german": "hören lassen / verkünden",
+    "root": "שמע"
+  },
+  {
+    "hebrew": "hi. פקד",
+    "german": "zum Aufseher machen",
+    "root": "פקד"
+  },
+  {
+    "hebrew": "שׁלח",
+    "german": "senden",
+    "root": "שלח"
+  },
+  {
+    "hebrew": "עשר",
+    "german": "zehn",
+    "root": "עשר"
+  },
+  {
+    "hebrew": "נְעוּרִים",
+    "german": "Jugend / Jugendzeit",
+    "root": "נעורים"
+  },
+  {
+    "hebrew": "ְחזק בּ hi.",
+    "german": "jmdn. ergreifen",
+    "root": "חזק ב"
+  },
+  {
+    "hebrew": "ְנגע בּ",
+    "german": "jmdn. berühren / schlagen",
+    "root": "נגע ב"
+  },
+  {
+    "hebrew": "אמן ni.",
+    "german": "fest/zuverlässig/treu sein / Bestand haben",
+    "root": "אמן"
+  },
+  {
+    "hebrew": "ְאמן‍ בּ hi.",
+    "german": "an jmdn./etwas glauben",
+    "root": "אמן ב"
+  },
+  {
+    "hebrew": "בְּ oder +Akk. בחר",
+    "german": "jmdn. erwählen / auswählen",
+    "root": "ב בחר"
+  },
+  {
+    "hebrew": "כָּמוֹךָ",
+    "german": "wie du (m.)",
+    "root": "כמו"
+  },
+  {
+    "hebrew": "קֵץ",
+    "german": "Ende",
+    "root": "קץ"
+  },
+  {
+    "hebrew": "אהב",
+    "german": "lieben",
+    "root": "אהב"
+  },
+  {
+    "hebrew": "אכל",
+    "german": "essen / verzehren",
+    "root": "אכל"
+  },
+  {
+    "hebrew": "אזן im hi.",
+    "german": "hinhören",
+    "root": "אזן"
+  },
+  {
+    "hebrew": "חָדָשׁ",
+    "german": "neu / frisch",
+    "root": "חדש"
+  },
+  {
+    "hebrew": "מֹאָבִית",
+    "german": "Moabiterin",
+    "root": "מאבית"
+  },
+  {
+    "hebrew": "למד pu.",
+    "german": "gelehrt werden / gewöhnt werden",
+    "root": "למד"
+  },
+  {
+    "hebrew": "קדשׁ",
+    "german": "heilig sein",
+    "root": "קדש"
+  },
+  {
+    "hebrew": "תְּהִלָּה",
+    "german": "Ruhm / Lobpreis",
+    "root": "תהלה"
+  },
+  {
+    "hebrew": "שׁוּב",
+    "german": "zurückkehren / nochmals/wieder (tun)",
+    "root": "שוב"
+  },
+  {
+    "hebrew": "כלה pi.",
+    "german": "vollenden / austilgen / zu Ende/ganz (tun)",
+    "root": "כלה"
+  },
+  {
+    "hebrew": "רֵאשִׁית",
+    "german": "Anfang / Erstling",
+    "root": "ראשית"
+  },
+  {
+    "hebrew": "עֵדוּת",
+    "german": "Zeugnis / Mahnung / Gebot",
+    "root": "עדות"
+  },
+  {
+    "hebrew": "דְּמוּת",
+    "german": "Ähnlichkeit / Abbild / Gestalt",
+    "root": "דמות"
+  },
+  {
+    "hebrew": "אְַבִי",
+    "german": "Vater von",
+    "root": "אבי"
+  },
+  {
+    "hebrew": "אָבִיו",
+    "german": "sein Vater",
+    "root": "אב"
+  },
+  {
+    "hebrew": "אֶחָיו",
+    "german": "seine Brüder",
+    "root": "אח"
+  },
+  {
+    "hebrew": "אָחוֹת",
+    "german": "Schwester",
+    "root": "אחות"
+  },
+  {
+    "hebrew": "אָמָה",
+    "german": "Magd",
+    "root": "אמה"
+  },
+  {
+    "hebrew": "בִּנְךָ",
+    "german": "dein (m.) Sohn",
+    "root": "בן"
+  },
+  {
+    "hebrew": "בָּנוֹת",
+    "german": "Töchter",
+    "root": "בת"
+  },
+  {
+    "hebrew": "בָּתִּים",
+    "german": "Häuser",
+    "root": "בית"
+  },
+  {
+    "hebrew": "רָאשִׁים",
+    "german": "Köpfe",
+    "root": "ראש"
+  },
+  {
+    "hebrew": "פִּי",
+    "german": "Mund von",
+    "root": "פה"
+  },
+  {
+    "hebrew": "פִּיו",
+    "german": "sein Mund",
+    "root": "פה"
+  },
+  {
+    "hebrew": "מֵי / מֵימֵי",
+    "german": "Wasser von",
+    "root": "מי מימי"
+  },
+  {
+    "hebrew": "(חַג (הַפֶּסַח",
+    "german": "(Passa)Fest",
+    "root": "חג הפסח"
+  },
+  {
+    "hebrew": "מִנְחָה",
+    "german": "Geschenk --> Tribut / Speiseopfer",
+    "root": "מנחה"
+  },
+  {
+    "hebrew": "עֹלָה",
+    "german": "Brandopfer (--> Rauch steigt)",
+    "root": "עלה"
+  },
+  {
+    "hebrew": "שְׁלָמִים",
+    "german": "Heilsopfer",
+    "root": "שלם"
+  },
+  {
+    "hebrew": "תּוֹדָה",
+    "german": "Loblied / Lobopfer / Danklied / Dankopfer",
+    "root": "תודה"
+  },
+  {
+    "hebrew": "שִׁיר / שִׁירָה",
+    "german": "Gesang / Lied",
+    "root": "שיר שירה"
+  },
+  {
+    "hebrew": "נֶדֶר / נֵדֶר",
+    "german": "Gelübde",
+    "root": "נדר נדר"
+  },
+  {
+    "hebrew": "אוֹ",
+    "german": "oder",
+    "root": "או"
+  },
+  {
+    "hebrew": "חשׁב",
+    "german": "halten für / planen / ersinnen / anrechnen",
+    "root": "חשב"
+  },
+  {
+    "hebrew": "חשׁב ni.",
+    "german": "angerechnet werden / gelten als",
+    "root": "חשב"
+  },
+  {
+    "hebrew": "מַטֶּה",
+    "german": "Stab / Stamm",
+    "root": "מטה"
+  },
+  {
+    "hebrew": "מִשְׁפָּחָה",
+    "german": "Geschlecht / Sippe / Abstammung",
+    "root": "משפחה"
+  },
+  {
+    "hebrew": "זָר",
+    "german": "fremd / Fremder",
+    "root": "זור"
+  },
+  {
+    "hebrew": "חנה",
+    "german": "lagern",
+    "root": "חנה"
+  },
+  {
+    "hebrew": "מַחֲנֶה",
+    "german": "Lager / Heer",
+    "root": "מחנה"
+  },
+  {
+    "hebrew": "חֵץ",
+    "german": "Pfeil",
+    "root": "חץ"
+  },
+  {
+    "hebrew": "חִצִּים",
+    "german": "Pfeile",
+    "root": "חץ"
+  },
+  {
+    "hebrew": "שׁאל לְ",
+    "german": "jmdn. fragen / bitten",
+    "root": "שאל ל"
+  },
+  {
+    "hebrew": "שֵׁנִי",
+    "german": "Zweiter",
+    "root": "שני"
+  },
+  {
+    "hebrew": "שֵׁנִית",
+    "german": "Zweite / zum zweiten Mal",
+    "root": "שני"
+  },
+  {
+    "hebrew": "שְׁלִישִׁית",
+    "german": "Dritte / Drittel",
+    "root": "שלישי"
+  },
+  {
+    "hebrew": "רְבִיעִי",
+    "german": "Vierter",
+    "root": "רביעי"
+  },
+  {
+    "hebrew": "חְַמִישִׁית",
+    "german": "Fünfte / Fünftel",
+    "root": "חמישית"
+  },
+  {
+    "hebrew": "שִׁשִּׁי",
+    "german": "Sechster",
+    "root": "ששי"
+  },
+  {
+    "hebrew": "שְׁבִיעִית",
+    "german": "Siebte / Siebtel",
+    "root": "שביעית"
+  },
+  {
+    "hebrew": "שְׁמִינִי",
+    "german": "Achter",
+    "root": "שמיני"
+  },
+  {
+    "hebrew": "תְּשִׁיעִית",
+    "german": "Neunte / Neuntel",
+    "root": "תשיעית"
+  },
+  {
+    "hebrew": "עְַשִׂירִי",
+    "german": "Zehnter",
+    "root": "עשירי"
+  },
+  {
+    "hebrew": "שְׁתַּיִם",
+    "german": "zwei (f.)",
+    "root": "שנים"
+  },
+  {
+    "hebrew": "שָׁלשׁ",
+    "german": "drei",
+    "root": "שלש"
+  },
+  {
+    "hebrew": "אַרְבַּע",
+    "german": "vier",
+    "root": "ארבע"
+  },
+  {
+    "hebrew": "חָמֵשׁ",
+    "german": "fünf",
+    "root": "חמש"
+  },
+  {
+    "hebrew": "שֵׁשׁ",
+    "german": "sechs",
+    "root": "שש"
+  },
+  {
+    "hebrew": "שֶׁבַע",
+    "german": "sieben",
+    "root": "שבע"
+  },
+  {
+    "hebrew": "שְׁמֹנֶה",
+    "german": "acht",
+    "root": "שמנה"
+  },
+  {
+    "hebrew": "תֵּשַׁע",
+    "german": "neun",
+    "root": "תשע"
+  },
+  {
+    "hebrew": "עַשְׁתֵּי עֶשְׂרֵה",
+    "german": "elf",
+    "root": "עשתי עשרה"
+  },
+  {
+    "hebrew": "עֶשְׂרִים",
+    "german": "zwanzig",
+    "root": "עשרים"
+  },
+  {
+    "hebrew": "שְׁלֹשִׁים",
+    "german": "dreissig",
+    "root": "שלשים"
+  },
+  {
+    "hebrew": "מֵאָה",
+    "german": "hundert",
+    "root": "מאה"
+  },
+  {
+    "hebrew": "רְבָבָה",
+    "german": "10'000 / extrem viel",
+    "root": "רבבה"
+  },
+  {
+    "hebrew": "מאס",
+    "german": "verwerfen / verschmähen",
+    "root": "מאס"
+  },
+  {
+    "hebrew": "גאל",
+    "german": "auslösen / erlösen",
+    "root": "גאל"
+  },
+  {
+    "hebrew": "גֹּאֵל הַדָּם",
+    "german": "Bluträcher",
+    "root": "גאל הדם"
+  },
+  {
+    "hebrew": "שׁחט",
+    "german": "schlachten",
+    "root": "שחט"
+  },
+  {
+    "hebrew": "רחץ",
+    "german": "(sich) waschen",
+    "root": "רחץ"
+  },
+  {
+    "hebrew": "שׂחק / צחק",
+    "german": "lachen",
+    "root": "שחק צחק"
+  },
+  {
+    "hebrew": "שחק / צחק pi.",
+    "german": "scherzen / spielen / tanzen",
+    "root": "שחק צחק"
+  },
+  {
+    "hebrew": "עבר",
+    "german": "durchziehen / vorübergehen / überschreiten",
+    "root": "עבר"
+  },
+  {
+    "hebrew": "עֵבֶר",
+    "german": "gegenüberliegende Seite / jenseits",
+    "root": "עבר"
+  },
+  {
+    "hebrew": "עזב",
+    "german": "verlassen",
+    "root": "עזב"
+  },
+  {
+    "hebrew": "עזר אֶת",
+    "german": "jmdm. helfen / unterstützen",
+    "root": "עזר את"
+  },
+  {
+    "hebrew": "ערך",
+    "german": "ordnen / zurüsten",
+    "root": "ערך"
+  },
+  {
+    "hebrew": "הרג",
+    "german": "erschlagen / töten",
+    "root": "הרג"
+  },
+  {
+    "hebrew": "הפך",
+    "german": "wenden / umstürzen / verwandeln",
+    "root": "הפך"
+  },
+  {
+    "hebrew": "אסף",
+    "german": "sammeln / aufnehmen / wegnehmen",
+    "root": "אסף"
+  },
+  {
+    "hebrew": "אסר",
+    "german": "anbinden / fesseln",
+    "root": "אסר"
+  },
+  {
+    "hebrew": "עֵז",
+    "german": "Ziege",
+    "root": "עז"
+  },
+  {
+    "hebrew": "עִזּים",
+    "german": "Ziegen",
+    "root": "עזים"
+  },
+  {
+    "hebrew": "מַחֲשָׁבָה / מַחֲשֶׁבֶת",
+    "german": "Gedanke / Plan",
+    "root": "מחשבה מחשבת"
+  },
+  {
+    "hebrew": "מְלָאכָה / מְלֶאכֶת",
+    "german": "Geschäft / Arbeit / Sache",
+    "root": "מלאכה מלאכת"
+  },
+  {
+    "hebrew": "מַצֵּבָה / מַצֶּבֶת",
+    "german": "Malstein / Gedenkstein",
+    "root": "מצבה מצבת"
+  },
+  {
+    "hebrew": "מִשְׁמֶרֶת",
+    "german": "Wache / Beobachtung/ Dienst",
+    "root": "משמרת"
+  },
+  {
+    "hebrew": "קטר pi./hi.",
+    "german": "räuchern",
+    "root": "קטר"
+  },
+  {
+    "hebrew": "קְטֹרֶת",
+    "german": "Räucherwerk",
+    "root": "קטרת"
+  },
+  {
+    "hebrew": "דֶּלֶת f.",
+    "german": "Türflügel / Tür",
+    "root": "דלת"
+  },
+  {
+    "hebrew": "אַהֲבָה",
+    "german": "Liebe",
+    "root": "אהבה"
+  },
+  {
+    "hebrew": "חדל",
+    "german": "aufhören / nicht tun / unterlassen",
+    "root": "חדל"
+  },
+  {
+    "hebrew": "חָסֵר",
+    "german": "nicht haben / entbehren / abnehmen",
+    "root": "חסר"
+  },
+  {
+    "hebrew": "חפץ בְּ",
+    "german": "Gefallen haben an etw. / etw. gern haben",
+    "root": "חפץ ב"
+  },
+  {
+    "hebrew": "חֵפֶץ",
+    "german": "Gefallen / Wunsch / Sache",
+    "root": "חפץ"
+  },
+  {
+    "hebrew": "חֵרֶם",
+    "german": "Bann",
+    "root": "חרם"
+  },
+  {
+    "hebrew": "חרם im hi.",
+    "german": "bannen",
+    "root": "חרם"
+  },
+  {
+    "hebrew": "חרשׁ hi.",
+    "german": "schweigen / sich still verhalten",
+    "root": "חרש"
+  },
+  {
+    "hebrew": "חרשׁ",
+    "german": "taub sein",
+    "root": "חרש"
+  },
+  {
+    "hebrew": "שָׂפָה",
+    "german": "Rand --> Lippe / Ufer",
+    "root": "שפה"
+  },
+  {
+    "hebrew": "זְרוֹעַ f.",
+    "german": "Arm --> Gewalt / Streitkräfte",
+    "root": "זרוע"
+  },
+  {
+    "hebrew": "בֶּטֶן f.",
+    "german": "Bauch / Leib",
+    "root": "בטן"
+  },
+  {
+    "hebrew": "גֶּבֶר",
+    "german": "(junger, kräftiger) Mann",
+    "root": "גבר"
+  },
+  {
+    "hebrew": "בְּתוּלָה",
+    "german": "Jungfrau",
+    "root": "בתולה"
+  },
+  {
+    "hebrew": "שֵׁן",
+    "german": "Zahn",
+    "root": "שן"
+  },
+  {
+    "hebrew": "שִׁנַּיִם",
+    "german": "Zähne",
+    "root": "שן"
+  },
+  {
+    "hebrew": "נְקֵבָה",
+    "german": "weiblich",
+    "root": "נקבה"
+  },
+  {
+    "hebrew": "פֵּאָה",
+    "german": "Rand / Seite",
+    "root": "פאה"
+  },
+  {
+    "hebrew": "שְׂמֹאל",
+    "german": "linke Seite / links",
+    "root": "שמאל"
+  },
+  {
+    "hebrew": "מָבוֹא",
+    "german": "Eingang / Westen",
+    "root": "מבוא"
+  },
+  {
+    "hebrew": "פֹּה",
+    "german": "hier / hierher",
+    "root": "פה"
+  },
+  {
+    "hebrew": "מִמַּעַל",
+    "german": "oben / droben",
+    "root": "מעל"
+  },
+  {
+    "hebrew": "כֶּרֶם",
+    "german": "Weinberg",
+    "root": "כרם"
+  },
+  {
+    "hebrew": "אֲדָמָה",
+    "german": "Ackerland / Erdboden / Erde",
+    "root": "אדמה"
+  },
+  {
+    "hebrew": "עֵשֶׂב",
+    "german": "Kraut",
+    "root": "עשב"
+  },
+  {
+    "hebrew": "לְוִיִּים",
+    "german": "Leviten",
+    "root": "לויים"
+  },
+  {
+    "hebrew": "יַרְדֵּן",
+    "german": "Jordan",
+    "root": "ירדן"
+  },
+  {
+    "hebrew": "תֵּבָה",
+    "german": "Kasten / Arche",
+    "root": "תבה"
+  },
+  {
+    "hebrew": "אֵמֶר / אִמְרָה",
+    "german": "Wort / Spruch / Rede",
+    "root": "אמר אמרה"
+  },
+  {
+    "hebrew": "אבד",
+    "german": "zugrunde gehen / verloren gehen",
+    "root": "אבד"
+  },
+  {
+    "hebrew": "אבה",
+    "german": "willig sein / wollen",
+    "root": "אבה"
+  },
+  {
+    "hebrew": "אחז",
+    "german": "ergreifen",
+    "root": "אחז"
+  },
+  {
+    "hebrew": "אֲחֻזָּה",
+    "german": "Besitz",
+    "root": "אחזה"
+  },
+  {
+    "hebrew": "שִׁפְחָה",
+    "german": "Sklavin / Magd",
+    "root": "שפחה"
+  },
+  {
+    "hebrew": "קִרְיָה",
+    "german": "Stadt",
+    "root": "קריה"
+  },
+  {
+    "hebrew": "חָרְבָּה",
+    "german": "Trümmerstätte / Ruine",
+    "root": "חרבה"
+  },
+  {
+    "hebrew": "נַחֲלָה",
+    "german": "Besitz / Erbe",
+    "root": "נחלה"
+  },
+  {
+    "hebrew": "חלק",
+    "german": "teilen / verteilen",
+    "root": "חלק"
+  },
+  {
+    "hebrew": "חֵלֶק",
+    "german": "Anteil",
+    "root": "חלק"
+  },
+  {
+    "hebrew": "אֹכֶל",
+    "german": "Nahrung / Getreide",
+    "root": "אכל"
+  },
+  {
+    "hebrew": "עֵזֶר עֶזְרָה",
+    "german": "Hilfe",
+    "root": "עזר עזרה"
+  },
+  {
+    "hebrew": "עֶרְוָה",
+    "german": "Blösse / Scham",
+    "root": "ערוה"
+  },
+  {
+    "hebrew": "עָרוֹם",
+    "german": "nackt",
+    "root": "ערום"
+  },
+  {
+    "hebrew": "יַעַר",
+    "german": "Wald / Dickicht",
+    "root": "יער"
+  },
+  {
+    "hebrew": "חָצִיר",
+    "german": "Gras",
+    "root": "חציר"
+  },
+  {
+    "hebrew": "גֶּפֶן",
+    "german": "Weinstock / Rebe",
+    "root": "גפן"
+  },
+  {
+    "hebrew": "עֵנָב",
+    "german": "Weinbeere",
+    "root": "ענב"
+  },
+  {
+    "hebrew": "אֶרֶז",
+    "german": "Zeder",
+    "root": "ארז"
+  },
+  {
+    "hebrew": "זַיִת",
+    "german": "Ölbaum",
+    "root": "זית"
+  },
+  {
+    "hebrew": "תְּאֵנָה",
+    "german": "Feigenbaum",
+    "root": "תאנה"
+  },
+  {
+    "hebrew": "צִיץ",
+    "german": "Blüte",
+    "root": "ציץ"
+  },
+  {
+    "hebrew": "עוֹף",
+    "german": "Vögel (kollektiv)",
+    "root": "עוף"
+  },
+  {
+    "hebrew": "עוֹר",
+    "german": "Haut / Fell / Leder",
+    "root": "עור"
+  },
+  {
+    "hebrew": "חֵלֶב",
+    "german": "Fett",
+    "root": "חלב"
+  },
+  {
+    "hebrew": "חָלָב",
+    "german": "Milch",
+    "root": "חלב"
+  },
+  {
+    "hebrew": "שֶׂה",
+    "german": "Schaf / Ziege (nicht kollektiv)",
+    "root": "שה"
+  },
+  {
+    "hebrew": "קֶרֶן",
+    "german": "Horn",
+    "root": "קרן"
+  },
+  {
+    "hebrew": "חֲמוֹר",
+    "german": "Esel",
+    "root": "חמור"
+  },
+  {
+    "hebrew": "גָּמָל",
+    "german": "Kamel",
+    "root": "גמל"
+  },
+  {
+    "hebrew": "שׁוֹר",
+    "german": "Rind / Stier",
+    "root": "שור"
+  },
+  {
+    "hebrew": "כֶּלֶב",
+    "german": "Hund",
+    "root": "כלב"
+  },
+  {
+    "hebrew": "נָחָשׁ",
+    "german": "Schlange",
+    "root": "נחש"
+  },
+  {
+    "hebrew": "אַשְׁרֵי",
+    "german": "wohl dem, der / glücklich, wer",
+    "root": "אשר"
+  },
+  {
+    "hebrew": "חֹשֶׁךְ",
+    "german": "Finsternis",
+    "root": "חשך"
+  },
+  {
+    "hebrew": "צֵל",
+    "german": "Schatten",
+    "root": "צל"
+  },
+  {
+    "hebrew": "צִלִּי",
+    "german": "mein Schatten",
+    "root": "צלי"
+  },
+  {
+    "hebrew": "גִּבְעָה",
+    "german": "Hügel",
+    "root": "גבעה"
+  },
+  {
+    "hebrew": "סֶלַע",
+    "german": "Fels / felsige Anhöhe",
+    "root": "סלע"
+  },
+  {
+    "hebrew": "צוּר",
+    "german": "Felsblock / Fels",
+    "root": "צור"
+  },
+  {
+    "hebrew": "בָּמָה",
+    "german": "Anhöhe / Kulthöhe",
+    "root": "במה"
+  },
+  {
+    "hebrew": "גַּיְא",
+    "german": "Tal",
+    "root": "גיא"
+  },
+  {
+    "hebrew": "עֵמֶק",
+    "german": "Talgrund / Ebene",
+    "root": "עמק"
+  },
+  {
+    "hebrew": "עֲרָבָה",
+    "german": "Wüste / Steppe",
+    "root": "ערבה"
+  },
+  {
+    "hebrew": "יָם הָעֲרָבָה",
+    "german": "Totes Meer",
+    "root": "ים הערבה"
+  },
+  {
+    "hebrew": "שְׁאוֹל",
+    "german": "Unterwelt / Scheol",
+    "root": "שאול"
+  },
+  {
+    "hebrew": "תְּהוֹם",
+    "german": "Ozean / Urflut",
+    "root": "תהום"
+  },
+  {
+    "hebrew": "יְאֹר",
+    "german": "Fluss / Strom / Nil",
+    "root": "יאר"
+  },
+  {
+    "hebrew": "קִיר",
+    "german": "Mauer / Wand",
+    "root": "קיר"
+  },
+  {
+    "hebrew": "בּוֹר",
+    "german": "Zisterne / Grube",
+    "root": "בור"
+  },
+  {
+    "hebrew": "אֹרַח",
+    "german": "Pfad / Weg",
+    "root": "ארח"
+  },
+  {
+    "hebrew": "הוֹי",
+    "german": "wehe!",
+    "root": "הוי"
+  },
+  {
+    "hebrew": "אַף",
+    "german": "auch / sogar",
+    "root": "אף"
+  },
+  {
+    "hebrew": "נֶגֶד",
+    "german": "vor / gegenüber von",
+    "root": "נגד"
+  },
+  {
+    "hebrew": "אֵצֶל",
+    "german": "(Seite -->) neben",
+    "root": "אצל"
+  },
+  {
+    "hebrew": "אַחֲרוֹן",
+    "german": "hinterer / letzter / künftig",
+    "root": "אחרון"
+  },
+  {
+    "hebrew": "אֱמוּנָה",
+    "german": "Festigkeit / Treue",
+    "root": "אמונה"
+  },
+  {
+    "hebrew": "נָכְרִי",
+    "german": "fremd / Fremder",
+    "root": "נכרי"
+  },
+  {
+    "hebrew": "עֹז",
+    "german": "Kraft / Macht",
+    "root": "עז"
+  },
+  {
+    "hebrew": "עֶלְיוֹן",
+    "german": "oberer / höchster",
+    "root": "עליון"
+  },
+  {
+    "hebrew": "קֶבֶר",
+    "german": "Grab",
+    "root": "קבר"
+  },
+  {
+    "hebrew": "כשׁל q.+ni.",
+    "german": "straucheln / stolpern",
+    "root": "כשל"
+  },
+  {
+    "hebrew": "בְּאֵר",
+    "german": "Brunnen",
+    "root": "באר"
+  },
+  {
+    "hebrew": "בֹּשֶׁת",
+    "german": "Schande / Scham",
+    "root": "בשת"
+  },
+  {
+    "hebrew": "ַיָרֵח",
+    "german": "Mond",
+    "root": "ירח"
+  },
+  {
+    "hebrew": "כּוֹכָב",
+    "german": "Stern",
+    "root": "כוכב"
+  },
+  {
+    "hebrew": "תֵּבֵל",
+    "german": "Festland / Erde",
+    "root": "תבל"
+  },
+  {
+    "hebrew": "כסה im pi.",
+    "german": "bedecken",
+    "root": "כסה"
+  },
+  {
+    "hebrew": "נבא im ni.",
+    "german": "prophetisch reden / als Prophet auftreten",
+    "root": "נבא"
+  },
+  {
+    "hebrew": "נבא hitp.",
+    "german": "sich als Prophet gebärden",
+    "root": "נבא"
+  },
+  {
+    "hebrew": "סגר",
+    "german": "schliessen / verschliessen",
+    "root": "סגר"
+  },
+  {
+    "hebrew": "סגר hi.",
+    "german": "verschliessen / ausliefern",
+    "root": "סגר"
+  },
+  {
+    "hebrew": "בקע",
+    "german": "spalten",
+    "root": "בקע"
+  },
+  {
+    "hebrew": "בִּקְעָה",
+    "german": "Talebene",
+    "root": "בקעה"
+  },
+  {
+    "hebrew": "צַר",
+    "german": "Feind",
+    "root": "צר"
+  },
+  {
+    "hebrew": "בער",
+    "german": "in Brand stehen / brennen",
+    "root": "בער"
+  },
+  {
+    "hebrew": "ְדבק בּ",
+    "german": "etw./jmdm. anhaften / anhängen",
+    "root": "דבק ב"
+  },
+  {
+    "hebrew": "חתת",
+    "german": "mutlos sein / erschrocken sein",
+    "root": "חתת"
+  },
+  {
+    "hebrew": "כעס",
+    "german": "unmutig sein / sich ärgern",
+    "root": "כעס"
+  },
+  {
+    "hebrew": "כעס hi.",
+    "german": "reizen / kränken",
+    "root": "כעס"
+  },
+  {
+    "hebrew": "צלח",
+    "german": "wirksam sein / Erfolg haben",
+    "root": "צלח"
+  },
+  {
+    "hebrew": "שׁדד",
+    "german": "gewalttätig sein / verheeren",
+    "root": "שדד"
+  },
+  {
+    "hebrew": "שׁמם",
+    "german": "verödet sein / schaudern",
+    "root": "שמם"
+  },
+  {
+    "hebrew": "שְׁמָמָה",
+    "german": "Öde / Verwüstung",
+    "root": "שממה"
+  },
+  {
+    "hebrew": "אֹהֵב",
+    "german": "Freund",
+    "root": "אהב"
+  },
+  {
+    "hebrew": "מִגְדָּל",
+    "german": "Turm",
+    "root": "מגדל"
+  },
+  {
+    "hebrew": "מִלָּה",
+    "german": "Wort",
+    "root": "מלה"
+  },
+  {
+    "hebrew": "חֵן",
+    "german": "Gnade / Güte",
+    "root": "חן"
+  },
+  {
+    "hebrew": "חִנָּם",
+    "german": "unentgeltlich / vergebens / ohne Ursache",
+    "root": "חנם"
+  },
+  {
+    "hebrew": "אָמְנָם",
+    "german": "gewiss / fürwahr",
+    "root": "אמנם"
+  },
+  {
+    "hebrew": "צֶלֶם",
+    "german": "Bild",
+    "root": "צלם"
+  },
+  {
+    "hebrew": "בִּינָה",
+    "german": "Einsicht",
+    "root": "בינה"
+  },
+  {
+    "hebrew": "חרה",
+    "german": "entbrennen / zornig werden/sein",
+    "root": "חרה"
+  },
+  {
+    "hebrew": "חָרוֹן",
+    "german": "Glut",
+    "root": "חרון"
+  },
+  {
+    "hebrew": "אֶבְיוֹן",
+    "german": "arm",
+    "root": "אביון"
+  },
+  {
+    "hebrew": "עָנִי",
+    "german": "elend / demütig",
+    "root": "עני"
+  },
+  {
+    "hebrew": "מָחְָרָת",
+    "german": "folgender Tag",
+    "root": "מחרת"
+  },
+  {
+    "hebrew": "נפל",
+    "german": "fallen / sich fallen lassen",
+    "root": "נפל"
+  },
+  {
+    "hebrew": "נצר",
+    "german": "bewachen / bewahren",
+    "root": "נצר"
+  },
+  {
+    "hebrew": "נטע",
+    "german": "pflanzen",
+    "root": "נטע"
+  },
+  {
+    "hebrew": "נחם עַל/אֶל־ im ni.",
+    "german": "etwas bereuen / sich etwas reuen lassen / Trost finden",
+    "root": "נחם עלאל"
+  },
+  {
+    "hebrew": "נגד im hi.",
+    "german": "mitteilen / berichten / verkünden",
+    "root": "נגד"
+  },
+  {
+    "hebrew": "נצל im hi.",
+    "german": "retten / entreissen",
+    "root": "נצל"
+  },
+  {
+    "hebrew": "נבט im hi.",
+    "german": "blicken / ansehen / schauen",
+    "root": "נבט"
+  },
+  {
+    "hebrew": "נשׂג im hi.",
+    "german": "erreichen / einholen",
+    "root": "נשג"
+  },
+  {
+    "hebrew": "נצב im hi.",
+    "german": "hinstellen / einsetzen",
+    "root": "נצב"
+  },
+  {
+    "hebrew": "נכר im hi.",
+    "german": "(wieder)erkennen / anerkennen",
+    "root": "נכר"
+  },
+  {
+    "hebrew": "נגע hi.",
+    "german": "berühren (lassen) / eintreffen",
+    "root": "נגע"
+  },
+  {
+    "hebrew": "נגשׁ im q./ni.",
+    "german": "herzutreten / sich nähern",
+    "root": "נגש"
+  },
+  {
+    "hebrew": "גֶּשֶׁת",
+    "german": "herzutreten / sich nähern (inf.cons.)",
+    "root": "גשת"
+  },
+  {
+    "hebrew": "גַּשׁ",
+    "german": "tritt herzu! / Nähere dich!",
+    "root": "גש"
+  },
+  {
+    "hebrew": "נגשׁ hi.",
+    "german": "bringen / darbringen",
+    "root": "נגש"
+  },
+  {
+    "hebrew": "נחל",
+    "german": "Besitz erhalten / erben",
+    "root": "נחל"
+  },
+  {
+    "hebrew": "נחל hi.",
+    "german": "zum Besitz geben",
+    "root": "נחל"
+  },
+  {
+    "hebrew": "נסע",
+    "german": "herausreissen / aufbrechen / weiterziehen",
+    "root": "נסע"
+  },
+  {
+    "hebrew": "נשׁק",
+    "german": "küssen",
+    "root": "נשק"
+  },
+  {
+    "hebrew": "דַּע",
+    "german": "wisse! / erkenne!",
+    "root": "ידע"
+  },
+  {
+    "hebrew": "דַּעַת",
+    "german": "wissen / erkennen (inf.cons.)",
+    "root": "דעת"
+  },
+  {
+    "hebrew": "דַּעַת f.",
+    "german": "Wissen / Erkenntnis",
+    "root": "דעת"
+  },
+  {
+    "hebrew": "ידע ni.",
+    "german": "sich kundtun / bekannt werden",
+    "root": "ידע"
+  },
+  {
+    "hebrew": "ידע hi.",
+    "german": "wissen lassen / kundtun / mitteilen",
+    "root": "ידע"
+  },
+  {
+    "hebrew": "ישׁב",
+    "german": "sich setzen / sitzen / bleiben / wohnen",
+    "root": "ישב"
+  },
+  {
+    "hebrew": "שֵׁב",
+    "german": "setz dich!",
+    "root": "ישב"
+  },
+  {
+    "hebrew": "שֶׁבֶת",
+    "german": "sich setzen / sitzen (inf.cons.)",
+    "root": "ישב"
+  },
+  {
+    "hebrew": "יוֹשֵׁב",
+    "german": "Bewohner / Einwohner",
+    "root": "ישב"
+  },
+  {
+    "hebrew": "ירד",
+    "german": "hinabgehen / herabkommen",
+    "root": "ירד"
+  },
+  {
+    "hebrew": "ילד",
+    "german": "gebären (f.) / zeugen (m.)",
+    "root": "ילד"
+  },
+  {
+    "hebrew": "ישׁע im hi.",
+    "german": "helfen / retten",
+    "root": "ישע"
+  },
+  {
+    "hebrew": "יְשׁוּעָה",
+    "german": "Hilfe / Heil / Rettung",
+    "root": "ישועה"
+  },
+  {
+    "hebrew": "ידה im hi.",
+    "german": "preisen / bekennen",
+    "root": "ידה"
+  },
+  {
+    "hebrew": "תּוֹדָה",
+    "german": "Loblied / Danklied / Lobopfer / Dankopfer",
+    "root": "תודה"
+  },
+  {
+    "hebrew": "יתר im ni.",
+    "german": "übrig bleiben",
+    "root": "יתר"
+  },
+  {
+    "hebrew": "ירה im hi.",
+    "german": "lehren / unterweisen",
+    "root": "ירה"
+  },
+  {
+    "hebrew": "יטב",
+    "german": "gut sein / gut gehen / gefallen",
+    "root": "יטב"
+  },
+  {
+    "hebrew": "יטב hi.",
+    "german": "gut handeln / gut machen",
+    "root": "יטב"
+  },
+  {
+    "hebrew": "ינק",
+    "german": "saugen (Säugling)",
+    "root": "ינק"
+  },
+  {
+    "hebrew": "ינק hi.",
+    "german": "säugen / stillen",
+    "root": "ינק"
+  },
+  {
+    "hebrew": "ילל hi.",
+    "german": "heulen / wehklagen",
+    "root": "ילל"
+  },
+  {
+    "hebrew": "יָבֵשׁ",
+    "german": "austrocknen / verdorren",
+    "root": "יבש"
+  },
+  {
+    "hebrew": "יעץ",
+    "german": "raten / beraten / planen",
+    "root": "יעץ"
+  },
+  {
+    "hebrew": "עֵצָה",
+    "german": "Rat / Plan",
+    "root": "עצה"
+  },
+  {
+    "hebrew": "יצר",
+    "german": "formen / bilden",
+    "root": "יצר"
+  },
+  {
+    "hebrew": "ירשׁ",
+    "german": "in Besitz nehmen / beerben",
+    "root": "ירש"
+  },
+  {
+    "hebrew": "ירשׁ hi.",
+    "german": "vertreiben / in Besitz nehmen",
+    "root": "ירש"
+  },
+  {
+    "hebrew": "יָרֵא",
+    "german": "fürchten / sich fürchten / fürchtend (Verbaladjektiv)",
+    "root": "ירא"
+  },
+  {
+    "hebrew": "יִרְאָה",
+    "german": "Furcht",
+    "root": "יראה"
+  },
+  {
+    "hebrew": "נוֹרָא",
+    "german": "furchtbar (gefürchtet)",
+    "root": "ירא"
+  },
+  {
+    "hebrew": "יצק",
+    "german": "ausgiessen",
+    "root": "יצק"
+  },
+  {
+    "hebrew": "יָכֹל",
+    "german": "können / vermögen / überlegen sein",
+    "root": "יכל"
+  },
+  {
+    "hebrew": "יוּכַל",
+    "german": "er wird können",
+    "root": "יכל"
+  },
+  {
+    "hebrew": "שָׂדֶה",
+    "german": "Feld",
+    "root": "שדה"
+  },
+  {
+    "hebrew": "קָנֶה",
+    "german": "(Schilf-)Rohr",
+    "root": "קנה"
+  },
+  {
+    "hebrew": "קָצֶה",
+    "german": "Ende / Rand",
+    "root": "קצה"
+  },
+  {
+    "hebrew": "נָוֶה",
+    "german": "Weideplatz / Stätte",
+    "root": "נוה"
+  },
+  {
+    "hebrew": "יָפֶה",
+    "german": "schön (m.)",
+    "root": "יפה"
+  },
+  {
+    "hebrew": "קָשֶׁה",
+    "german": "hart / schwer",
+    "root": "קשה"
+  },
+  {
+    "hebrew": "עֹרֶף",
+    "german": "Nacken",
+    "root": "ערף"
+  },
+  {
+    "hebrew": "מַעֲשֶׂה",
+    "german": "Tat / Werk / Arbeit",
+    "root": "מעשה"
+  },
+  {
+    "hebrew": "מַרְאֶה",
+    "german": "Sehen / Aussehen / Erscheinung",
+    "root": "מראה"
+  },
+  {
+    "hebrew": "מִקְנֶה",
+    "german": "Besitz / Viehbesitz",
+    "root": "מקנה"
+  },
+  {
+    "hebrew": "קנה",
+    "german": "kaufen",
+    "root": "קנה"
+  },
+  {
+    "hebrew": "מִשְׁנֶה",
+    "german": "Zweiter/s / Doppeltes",
+    "root": "משנה"
+  },
+  {
+    "hebrew": "שׁנה",
+    "german": "wiederholen",
+    "root": "שנה"
+  },
+  {
+    "hebrew": "מִשְׁתֶּה",
+    "german": "Trinken / Gastmahl / Gelage",
+    "root": "משתה"
+  },
+  {
+    "hebrew": "שׁתה",
+    "german": "trinken",
+    "root": "שתה"
+  },
+  {
+    "hebrew": "רֹעֶה",
+    "german": "Hirte",
+    "root": "רעה"
+  },
+  {
+    "hebrew": "רעה",
+    "german": "weiden",
+    "root": "רעה"
+  },
+  {
+    "hebrew": "רעע",
+    "german": "böse/schlecht sein/werden",
+    "root": "רעע"
+  },
+  {
+    "hebrew": "זנה",
+    "german": "huren / treulos sein",
+    "root": "זנה"
+  },
+  {
+    "hebrew": "זוֹנָה",
+    "german": "Prostituierte",
+    "root": "זנה"
+  },
+  {
+    "hebrew": "כלה",
+    "german": "fertig werden / aufhören / vergehen",
+    "root": "כלה"
+  },
+  {
+    "hebrew": "פדה",
+    "german": "loskaufen / erlösen / befreien",
+    "root": "פדה"
+  },
+  {
+    "hebrew": "פנה",
+    "german": "sich wenden",
+    "root": "פנה"
+  },
+  {
+    "hebrew": "",
+    "german": "an etw. Gefallen haben",
+    "root": "רצה"
+  },
+  {
+    "hebrew": "בכה",
+    "german": "weinen / beweinen",
+    "root": "בכה"
+  },
+  {
+    "hebrew": "הרה",
+    "german": "empfangen / schwanger werden",
+    "root": "הרה"
+  },
+  {
+    "hebrew": "חזה",
+    "german": "schauen (eine Vision)",
+    "root": "חזה"
+  },
+  {
+    "hebrew": "חָזוֹן",
+    "german": "Vision / Geschautes",
+    "root": "חזון"
+  },
+  {
+    "hebrew": "חלה",
+    "german": "krank werden / krank sein",
+    "root": "חלה"
+  },
+  {
+    "hebrew": "צוה im pi.",
+    "german": "jmdm. befehlen / jmdn. beauftragen",
+    "root": "צוה"
+  },
+  {
+    "hebrew": "קוה im pi.",
+    "german": "hoffen / warten",
+    "root": "קוה"
+  },
+  {
+    "hebrew": "תִּקְוָה",
+    "german": "Hoffnung",
+    "root": "תקוה"
+  },
+  {
+    "hebrew": "נסה im pi.",
+    "german": "versuchen / auf die Probe stellen",
+    "root": "נסה"
+  },
+  {
+    "hebrew": "שׁקה im hi.",
+    "german": "tränken / zu trinken geben",
+    "root": "שקה"
+  },
+  {
+    "hebrew": "מַשְׁקֶה",
+    "german": "Mundschenk / Getränk",
+    "root": "משקה"
+  },
+  {
+    "hebrew": "נכה im hi.",
+    "german": "schlagen / erschlagen",
+    "root": "נכה"
+  },
+  {
+    "hebrew": "מַכָּה",
+    "german": "Schlag / Wunde / Niederlage",
+    "root": "מכה"
+  },
+  {
+    "hebrew": "נטה",
+    "german": "ausstrecken / ausbreiten / neigen / abbiegen",
+    "root": "נטה"
+  },
+  {
+    "hebrew": "ענה im pi.",
+    "german": "bedrücken / demütigen / vergewaltigen",
+    "root": "ענה"
+  },
+  {
+    "hebrew": "עְָנִי",
+    "german": "Elend",
+    "root": "עני"
+  },
+  {
+    "hebrew": "רבה",
+    "german": "zahlreich sein / zahlreich werden",
+    "root": "רבה"
+  },
+  {
+    "hebrew": "הַרְבֵּה",
+    "german": "viel / in Menge",
+    "root": "רבה"
+  },
+  {
+    "hebrew": "חוה im hist.",
+    "german": "sich beugen / sich niederwerfen",
+    "root": "חוה"
+  },
+  {
+    "hebrew": "יסף im q./hi.",
+    "german": "hinzufügen",
+    "root": "יסף"
+  },
+  {
+    "hebrew": "קוּם",
+    "german": "aufstehen / zustande kommen / Bestand haben",
+    "root": "קום"
+  },
+  {
+    "hebrew": "שׁוּב hi.",
+    "german": "zurückbringen",
+    "root": "שוב"
+  },
+  {
+    "hebrew": "סוּר",
+    "german": "weichen / sich wenden / einkehren",
+    "root": "סור"
+  },
+  {
+    "hebrew": "סוּר hi.",
+    "german": "entfernen / abschaffen",
+    "root": "סור"
+  },
+  {
+    "hebrew": "כּוּן im ni.",
+    "german": "fest stehen / Bestand haben / bereit sein",
+    "root": "כון"
+  },
+  {
+    "hebrew": "כּוּן hi.",
+    "german": "festigen / aufstellen / bereit stellen",
+    "root": "כון"
+  },
+  {
+    "hebrew": "רוּם",
+    "german": "hoch sein / erhaben sein / stolz sein",
+    "root": "רום"
+  },
+  {
+    "hebrew": "גּוּר",
+    "german": "sich als Fremdling aufhalten / weilen",
+    "root": "גור"
+  },
+  {
+    "hebrew": "נוּס",
+    "german": "(vor einer Gefahr) fliehen",
+    "root": "נוס"
+  },
+  {
+    "hebrew": "רוּץ",
+    "german": "laufen",
+    "root": "רוץ"
+  },
+  {
+    "hebrew": "נוּחַ",
+    "german": "ruhen",
+    "root": "נוח"
+  },
+  {
+    "hebrew": "נוּחַ hi.",
+    "german": "Ruhe verschaffen",
+    "root": "נוח"
+  },
+  {
+    "hebrew": "נוּחַ hi.",
+    "german": "setzen / legen / lassen",
+    "root": "נוח"
+  },
+  {
+    "hebrew": "מוּת",
+    "german": "sterben",
+    "root": "מות"
+  },
+  {
+    "hebrew": "מֵת",
+    "german": "er ist gestorben / sterbend / Toter",
+    "root": "מות"
+  },
+  {
+    "hebrew": "מוּת hi.",
+    "german": "sterben lassen / töten",
+    "root": "מות"
+  },
+  {
+    "hebrew": "בּוֹשׁ",
+    "german": "sich schämen / zuschanden werden",
+    "root": "בוש"
+  },
+  {
+    "hebrew": "בּוֹשׁ hi.",
+    "german": "zuschanden machen / beschämt dastehen",
+    "root": "בוש"
+  },
+  {
+    "hebrew": "אוֹר",
+    "german": "hell weden / leuchten",
+    "root": "אור"
+  },
+  {
+    "hebrew": "שִׂים",
+    "german": "setzen / legen /stellen",
+    "root": "שום"
+  },
+  {
+    "hebrew": "שִׁית",
+    "german": "setzen / legen / stellen",
+    "root": "שית"
+  },
+  {
+    "hebrew": "בִּין",
+    "german": "verstehen / einsehen / (be)merken",
+    "root": "בין"
+  },
+  {
+    "hebrew": "בִּין hi.",
+    "german": "verstehen / belehren",
+    "root": "בין"
+  },
+  {
+    "hebrew": "שִׁיר",
+    "german": "singen",
+    "root": "שיר"
+  },
+  {
+    "hebrew": "לִין",
+    "german": "übernachten",
+    "root": "לון"
+  },
+  {
+    "hebrew": "רִיב",
+    "german": "streiten / rechten",
+    "root": "ריב"
+  },
+  {
+    "hebrew": "גִּיל",
+    "german": "frohlocken / jauchzen",
+    "root": "גיל"
+  },
+  {
+    "hebrew": "יכח im hi.",
+    "german": "feststellen, was recht ist / zurechtweisen / Recht sprechen",
+    "root": "יכח"
+  },
+  {
+    "hebrew": "סבב",
+    "german": "sich wenden / herumgehen / umwandeln",
+    "root": "סבב"
+  },
+  {
+    "hebrew": "",
+    "german": "jmdm. gnädig sein",
+    "root": "חנן"
+  },
+  {
+    "hebrew": "תמם",
+    "german": "vollständig sein / zu Ende sein",
+    "root": "תמם"
+  },
+  {
+    "hebrew": "ארר",
+    "german": "verfluchen",
+    "root": "ארר"
+  },
+  {
+    "hebrew": "רנן",
+    "german": "jubeln / jauchzen",
+    "root": "רנן"
+  },
+  {
+    "hebrew": "צרר",
+    "german": "zusammenschnüren / eng sein",
+    "root": "צרר"
+  },
+  {
+    "hebrew": "צָרָה",
+    "german": "Not / Bedrängnis",
+    "root": "צרה"
+  },
+  {
+    "hebrew": "קלל",
+    "german": "gering sein / schnell sein",
+    "root": "קלל"
+  },
+  {
+    "hebrew": "קלל pi.",
+    "german": "verfluchen",
+    "root": "קלל"
+  },
+  {
+    "hebrew": "חלל pi.",
+    "german": "entweihen",
+    "root": "חלל"
+  },
+  {
+    "hebrew": "חלל hi.",
+    "german": "anfangen",
+    "root": "חלל"
+  },
+  {
+    "hebrew": "פרר im hi.",
+    "german": "brechen / zunichte machen",
+    "root": "פרר"
+  },
+  {
+    "hebrew": "הָהָר",
+    "german": "der Berg",
+    "root": "הר"
+  }
+]
