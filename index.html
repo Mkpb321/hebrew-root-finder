@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Roots – Suche (Hebräisch / Deutsch / Wurzel)</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="container">
+      <div class="title-row">
+        <h1>Roots</h1>
+        <p class="subtitle">Suche in Hebräisch, Deutsch oder Wurzel. Tippen/klicken, um alle Einträge mit gleicher Wurzel zu sehen.</p>
+      </div>
+
+      <div class="search-row" role="search">
+        <label class="search-label" for="q">Suche</label>
+        <input id="q" type="search" inputmode="search" autocomplete="off" placeholder="z.B. אמר, Sohn, דבר …" />
+        <button id="clearBtn" class="btn btn-secondary" type="button" aria-label="Suche leeren">Leeren</button>
+      </div>
+
+      <div class="meta-row">
+        <span id="status" class="status">Lade Daten …</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container main">
+    <section class="panel">
+      <div class="panel-header">
+        <h2>Treffer</h2>
+        <span id="hitsCount" class="pill">0</span>
+      </div>
+      <div id="hits" class="list" aria-live="polite" aria-busy="true"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-header">
+        <h2>Gleiche Wurzel</h2>
+        <span id="rootPill" class="pill pill-muted">—</span>
+      </div>
+      <div id="rootGroup" class="list" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span class="footer-note">
+        Datenquelle: <code>./data/roots.json</code> (muss relativ zu <code>index.html</code> vorhanden sein).
+      </span>
+    </div>
+  </footer>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
