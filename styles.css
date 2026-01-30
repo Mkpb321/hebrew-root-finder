@@ -199,6 +199,64 @@ h1{
   min-width: 0;
 }
 
+.item-top{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap: 10px;
+}
+
+.meta-pill{
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: #f9fafb;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.roots{
+  margin-top: 6px;
+  display:flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.root-chip{
+  display:inline-flex;
+  align-items:center;
+  gap: 6px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: #ffffff;
+  color: #374151;
+  font-size: 12px;
+  line-height: 1;
+  cursor: pointer;
+  user-select:none;
+}
+
+.root-chip:focus{
+  outline:none;
+  box-shadow: var(--focus);
+}
+
+.root-chip .pct{
+  direction:ltr;
+  unicode-bidi: plaintext;
+  font-size: 11px;
+  opacity: .9;
+}
+
+.root-chip-empty{
+  cursor: default;
+  background: #f9fafb;
+  color: var(--muted);
+  border-color: var(--border);
+}
+
 .hebrew{
   font-family: "Times New Roman", Times, serif;
   direction: rtl;
