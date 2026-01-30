@@ -56,6 +56,10 @@ function pctToColor(p01) {
   };
 }
 
+function setStatus(_text) {
+  // Statuszeile wurde entfernt (absichtlich leer).
+}
+
 function renderEmpty(targetEl, text) {
   targetEl.innerHTML = `<div class="empty">${escapeHtml(text)}</div>`;
 }
@@ -70,16 +74,16 @@ function makeItem(row, idx, isSelected = false) {
   const cls = ["item"];
   if (isSelected) cls.push("selected");
 
-  // Use a div with role=button for accessibility + mobile-friendly tap
+  // Container is *not* clickable so users can select/copy text.
   const div = document.createElement("div");
   div.className = cls.join(" ");
-  div.setAttribute("role", "button");
-  div.setAttribute("tabindex", "0");
   div.dataset.idx = String(idx);
 
   const lessonHtml = (lesson === 0 || lesson)
     ? `<span class="meta-pill" title="Lektion">Lektion ${escapeHtml(lesson)}</span>`
     : "";
+
+  const focusBtnHtml = `<button class="btn btn-secondary focus-btn" type="button" data-focus="${escapeHtml(idx)}" aria-label="Treffer fokussieren">Fokus</button>`;
 
   const rootsHtml = (total > 0 && stats.length)
     ? stats.map(s => {
@@ -93,7 +97,10 @@ function makeItem(row, idx, isSelected = false) {
     <div class="item-main">
       <div class="item-top">
         <div class="hebrew he">${escapeHtml(he)}</div>
-        ${lessonHtml}
+        <div class="item-actions">
+          ${lessonHtml}
+          ${focusBtnHtml}
+        </div>
       </div>
       <div class="de">${escapeHtml(de)}</div>
       <div class="roots" aria-label="Wurzeln">${rootsHtml}</div>
@@ -106,10 +113,14 @@ function makeItem(row, idx, isSelected = false) {
       e.stopPropagation();
       const r = chip.getAttribute("data-root") || "";
       if (!r) return;
-      selectedRoot = r;
-      selectedIdx = idx;
-      renderHits(currentHits.length ? currentHits : rows.map((_, i) => i));
-      renderRootGroup(selectedRoot);
+      // Toggle root focus
+      if (selectedRoot === r) {
+        clearRootFocus();
+      } else {
+        selectedRoot = r;
+        renderRootGroup(selectedRoot);
+        renderHits(currentHits.length ? currentHits : rows.map((_, i) => i));
+      }
     });
     chip.addEventListener("keydown", (e) => {
       if (e.key === "Enter" || e.key === " ") {
@@ -119,13 +130,14 @@ function makeItem(row, idx, isSelected = false) {
     });
   });
 
-  div.addEventListener("click", () => selectHit(idx));
-  div.addEventListener("keydown", (e) => {
-    if (e.key === "Enter" || e.key === " ") {
-      e.preventDefault();
+  // Focus button: explicitly open detail view (keeps text selectable/copyable)
+  const focusBtn = div.querySelector("button[data-focus]");
+  if (focusBtn) {
+    focusBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
       selectHit(idx);
-    }
-  });
+    });
+  }
 
   return div;
 }
@@ -148,11 +160,20 @@ function renderHits(hitIndices) {
   elHits.appendChild(frag);
 }
 
+function clearRootFocus() {
+  selectedRoot = "";
+  renderRootGroup("");
+  renderHits(currentHits.length ? currentHits : rows.map((_, i) => i));
+}
+
 function renderRootGroup(root) {
   elRootGroup.innerHTML = "";
 
   if (!root) {
-    elRootPill.textContent = "—";
+    if (elRootPill) {
+      elRootPill.textContent = "—";
+      elRootPill.setAttribute("disabled", "true");
+    }
     renderEmpty(elRootGroup, "Wähle oben einen Treffer aus, um alle Wörter mit gleicher Wurzel zu sehen.");
     return;
   }
@@ -161,7 +182,10 @@ function renderRootGroup(root) {
     .map((r, i) => ({ r, i }))
     .filter(x => (x.r.rootSet?.has(root)));
 
-  elRootPill.textContent = `${root} · ${group.length}`;
+  if (elRootPill) {
+    elRootPill.textContent = `${root} · ${group.length}  ×`;
+    elRootPill.removeAttribute("disabled");
+  }
 
   if (group.length === 0) {
     renderEmpty(elRootGroup, "Keine Einträge für diese Wurzel gefunden.");
@@ -186,6 +210,7 @@ function applySearch() {
     currentHits = rows.map((_, i) => i);
     renderHits(currentHits);
     renderRootGroup("");
+    setStatus(`Bereit · ${rows.length} Einträge`);
     return;
   }
 
@@ -204,15 +229,15 @@ function applySearch() {
   currentHits = hits;
   renderHits(hits);
   renderRootGroup("");
+  setStatus(`Suche: "${qRaw}" · Treffer: ${hits.length}`);
 }
 
 function selectHit(idx) {
   selectedIdx = idx;
   const row = rows[idx];
   if (!row) return;
-  if (!selectedRoot || !row.rootSet?.has(selectedRoot)) {
-    selectedRoot = bestRootForRow(row);
-  }
+  // Only auto-pick a root if none is currently focused.
+  if (!selectedRoot) selectedRoot = bestRootForRow(row);
   renderHits(currentHits.length ? currentHits : rows.map((_, i) => i));
   renderRootGroup(selectedRoot);
 
@@ -223,6 +248,7 @@ function selectHit(idx) {
 
 async function loadData() {
   elHits.setAttribute("aria-busy", "true");
+  setStatus("Lade Daten …");
   renderEmpty(elHits, "Lade Daten …");
   renderEmpty(elRootGroup, "Wähle oben einen Treffer aus, um alle Wörter mit gleicher Wurzel zu sehen.");
 
@@ -234,7 +260,7 @@ async function loadData() {
 
     rows = data.map((x) => {
       const allRoots = [];
-      for (let i = 1; i <= 7; i++) {
+      for (let i = 1; i <= 9; i++) {
         const v = x?.[`root_${i}`];
         if (typeof v !== "string") continue;
         for (const part of v.split(",")) {
@@ -261,28 +287,46 @@ async function loadData() {
         }))
         .sort((a, b) => (b.p - a.p) || (a.first - b.first));
 
+      const german = x?.german ?? x?.de ?? "";
+      const germanBase =
+        x?.german_base ??
+        x?.grundform ??
+        x?.de_grundform ??
+        x?.german_grundform ??
+        x?.de_base ??
+        x?.base_de ??
+        x?.infinitiv ??
+        "";
+
       return {
         lesson: x?.lesson,
         hebrew: x?.hebrew ?? x?.he ?? "",
-        german: x?.german ?? x?.de ?? "",
+        german,
+        germanBase,
         rootTotal: total,
         rootStats: stats,
         rootSet: new Set(unique)
       };
     });
 
-    rowsNorm = rows.map((x) => ({
-      he_n: stripHebrewDiacritics(x.hebrew),
-      de_n: normLatin(x.german),
-      roots_he_n: stripHebrewDiacritics(Array.from(x.rootSet ?? []).join(" ")),
-      roots_lc_n: normLatin(Array.from(x.rootSet ?? []).join(" "))
-    }));
+    rowsNorm = rows.map((x) => {
+      const deCombined = `${x.german ?? ""} ${x.germanBase ?? ""}`.trim();
+      const rootsJoined = Array.from(x.rootSet ?? []).join(" ");
+      return {
+        he_n: stripHebrewDiacritics(x.hebrew),
+        de_n: normLatin(deCombined),
+        roots_he_n: stripHebrewDiacritics(rootsJoined),
+        roots_lc_n: normLatin(rootsJoined)
+      };
+    });
 
     currentHits = rows.map((_, i) => i);
     renderHits(currentHits);
     renderRootGroup("");
+    setStatus(`Bereit · ${rows.length} Einträge`);
   } catch (err) {
     console.error(err);
+    setStatus("Fehler beim Laden von ./data/data.json");
     renderEmpty(elHits, "Fehler: Konnte ./data/data.json nicht laden. Tipp: Starte die Seite über einen lokalen Webserver (nicht per file://).");
     renderEmpty(elRootGroup, "—");
   }
@@ -321,6 +365,11 @@ if (elSearchBtn) {
 
 if (elHelpBtn) elHelpBtn.addEventListener("click", openHelp);
 if (elHelpClose) elHelpClose.addEventListener("click", closeHelp);
+if (elRootPill) {
+  elRootPill.addEventListener("click", () => {
+    if (selectedRoot) clearRootFocus();
+  });
+}
 if (elHelpOverlay) {
   elHelpOverlay.addEventListener("click", (e) => {
     const t = e.target;

@@ -26,11 +26,11 @@
       </div>
       <div class="overlay-body">
         <ul class="help-list">
-          <li><b>Suche</b> in Hebräisch, Deutsch oder nach Wurzeln (Niqqud wird ignoriert).</li>
-          <li><b>Roots</b>: Es gibt <b>7 Root-Felder</b>. Werte mit Kommas werden in einzelne Roots aufgeteilt.</li>
-          <li><b>Duplikate</b> werden zusammengefasst; der Badge zeigt den <b>Anteil in&nbsp;%</b> (je höher, desto grüner).</li>
-          <li>Klick auf einen Root-Badge zeigt <b>Gleiche Wurzel</b> (alle Einträge, die diese Root enthalten).</li>
-          <li>Daten: <code>./data/data.json</code> relativ zu <code>index.html</code>.</li>
+          <li><b>Suchen</b>: Du kannst nach <b>Hebräisch</b>, <b>Deutsch</b> oder <b>Wurzel</b> suchen (Niqqud wird ignoriert). Die <b>deutsche Grundform</b> wird ebenfalls mit durchsucht.</li>
+          <li><b>Wurzeln</b>: Pro Eintrag gibt es bis zu <b>9 Root-Felder</b>. Enthält ein Feld Kommas, wird es in mehrere Roots aufgeteilt.</li>
+          <li><b>Prozent-Badges</b>: Gleiche Roots werden zusammengefasst. Die Prozentzahl zeigt, in wie vielen Root-Feldern diese Root vorkommt (je höher, desto grüner).</li>
+          <li><b>Fokus</b>: Klicke auf einen Root-Badge, um alle Einträge mit <b>genau dieser Root</b> zu sehen. Mit dem Badge oben rechts kannst du den Fokus wieder aufheben.</li>
+          <li><b>Tipp</b>: Du kannst Text in den Ergebnissen markieren und kopieren. Für die Detailansicht nutze den <b>Fokus</b>-Button im Treffer.</li>
         </ul>
       </div>
     </div>
@@ -48,7 +48,7 @@
     <section class="panel">
       <div class="panel-header">
         <h2>Gleiche Wurzel</h2>
-        <span id="rootPill" class="pill pill-muted">—</span>
+        <button id="rootPill" class="pill pill-muted pill-btn" type="button" aria-label="Wurzel-Fokus aufheben">—</button>
       </div>
       <div id="rootGroup" class="list" aria-live="polite"></div>
     </section>
