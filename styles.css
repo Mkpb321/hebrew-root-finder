@@ -244,3 +244,122 @@ h1{
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 12px;
 }
+
+/* Compact header + denser spacing */
+.header-inner{
+  padding: 10px 0 10px;
+}
+
+.topbar{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap: 12px;
+  padding: 10px 0 6px;
+}
+
+.app-title{
+  margin:0;
+  font-size: clamp(18px, 2vw, 22px);
+  letter-spacing: -0.02em;
+}
+
+.status{
+  font-size: 12px;
+  color: var(--muted);
+  padding: 4px 10px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: #f9fafb;
+}
+
+.search-row{
+  padding-bottom: 8px;
+}
+
+.search-label{
+  min-width: auto;
+}
+
+#q{
+  padding: 10px 12px;
+  border-radius: 12px;
+}
+
+.btn{
+  padding: 9px 12px;
+  border-radius: 12px;
+}
+
+.main{
+  gap: 12px;
+  padding: 12px 0 16px;
+}
+
+.panel{
+  border-radius: 14px;
+  box-shadow: var(--shadow2);
+}
+
+.panel-header{
+  padding: 10px 12px 8px;
+}
+
+.list{
+  padding: 6px;
+  min-height: 120px;
+}
+
+.item{
+  gap: 10px;
+  padding: 10px;
+}
+
+.he{
+  font-size: 19px;
+}
+
+.de{
+  margin-top: 3px;
+  font-size: 13px;
+}
+
+.root-badge{
+  padding: 5px 8px;
+  font-size: 12px;
+}
+
+.help{
+  margin: 0 0 10px;
+}
+
+.help > summary{
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 12px;
+  list-style: none;
+}
+
+.help > summary::-webkit-details-marker{ display:none; }
+
+.help > summary::before{
+  content: "ℹ︎ ";
+  font-weight: 700;
+}
+
+.help-text{
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+.help-note{
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.help code{
+  font-size: 12px;
+}

@@ -8,10 +8,10 @@
 </head>
 <body>
   <header class="app-header">
-    <div class="container">
-      <div class="title-row">
-        <h1>Roots</h1>
-        <p class="subtitle">Suche in Hebräisch, Deutsch oder Wurzel. Tippen/klicken, um alle Einträge mit gleicher Wurzel zu sehen.</p>
+    <div class="container header-inner">
+      <div class="topbar">
+        <h1 class="app-title">Roots</h1>
+        <span id="status" class="status" aria-live="polite">Lade Daten …</span>
       </div>
 
       <div class="search-row" role="search">
@@ -20,9 +20,11 @@
         <button id="clearBtn" class="btn btn-secondary" type="button" aria-label="Suche leeren">Leeren</button>
       </div>
 
-      <div class="meta-row">
-        <span id="status" class="status">Lade Daten …</span>
-      </div>
+      <details class="help">
+        <summary aria-label="Informationen">Info</summary>
+        <p class="help-text">Suche in Hebräisch, Deutsch oder nach Wurzel. Tippen/klicken, um alle Einträge mit gleicher Wurzel zu sehen.</p>
+        <p class="help-note">Datenquelle: <code>./data/roots.json</code> (muss relativ zu <code>index.html</code> vorhanden sein).</p>
+      </details>
     </div>
   </header>
 
@@ -43,14 +45,6 @@
       <div id="rootGroup" class="list" aria-live="polite"></div>
     </section>
   </main>
-
-  <footer class="footer">
-    <div class="container">
-      <span class="footer-note">
-        Datenquelle: <code>./data/roots.json</code> (muss relativ zu <code>index.html</code> vorhanden sein).
-      </span>
-    </div>
-  </footer>
 
   <script src="./app.js" defer></script>
 </body>
