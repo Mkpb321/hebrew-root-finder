@@ -7,3 +7,10 @@ mehr wie eine tabelle designen
 alles gut kopierbar auch am smartphone
 
 Hebrew root finder ergänzen die daten mit deutscher grundform fürs suchen
+
+
+neu gibtt es nicht nur root 1-7 sondern 1-9. berücksichtige alle 9.
+es hat neu eine deutsche grundform. diese soll nicht angezeigt werden, aber in der suche berücksichtigt. wenn ich "gehen" suche sollen auch die angezeigt werden, die gehen in der grundform im json haben
+das anklicken soll neu ¨ber einen button sein, nicht der ganze eintrag, damit man gut die worte aus den suchergebnissen auch markieren und kopieren kann wenn man will
+überarbeite was hinter dem ? steht. es soll nicht die technische umsetzung beschreiben sondern dem endbenutzer helfen beim bedienen und verstehen. also dass er funktionen kennt und das angezeigte ergebniss nachvollziehen kann und auch den mehrwert der app kennt
+wenn man auf eine wurzel klickt, sollen nur die angezeigt werden, die genau diese wurzel enthalten. das man diese im fokus hat wird irgendwie angezeigt und man kanns wieder deaktivieren. so wie momentan ein ganzes wort im fokus sein kann

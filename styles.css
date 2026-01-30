@@ -1,12 +1,13 @@
 /* Compact, square, thick-frame UI */
 :root{
-  --bg: #f3f4f6;
+  --bg: #f6f7f9;
   --card: #ffffff;
   --text: #111827;
   --muted: #6b7280;
-  --border: #d1d5db;
+  --border: #cbd5e1;
   --bw: 2px;
   --focus: 0 0 0 3px rgba(59,130,246,.25);
+  --shadow: 0 1px 0 rgba(15,23,42,.06);
 }
 
 *{box-sizing:border-box}
@@ -27,25 +28,9 @@ body{
   position:sticky;
   top:0;
   z-index:10;
-  background: rgba(243,244,246,.96);
+  background: rgba(246,247,249,.92);
   backdrop-filter: blur(10px);
   border-bottom: var(--bw) solid var(--border);
-}
-
-.title-row{
-  padding: 18px 0 12px;
-}
-
-h1{
-  margin:0;
-  font-size: clamp(20px, 2.4vw, 28px);
-  letter-spacing: -0.02em;
-}
-.subtitle{
-  margin:6px 0 0;
-  color: var(--muted);
-  font-size: 14px;
-  line-height: 1.35;
 }
 
 /* Header: single-line search bar */
@@ -86,6 +71,7 @@ h1{
 }
 .btn:focus{outline:none; box-shadow: var(--focus);}
 .btn:active{transform: translateY(1px);}
+.btn:hover{ background:#f8fafc; }
 
 .btn-secondary{
   color: var(--muted);
@@ -95,27 +81,14 @@ h1{
   background: #111827;
   border-color: #111827;
   color: #ffffff;
+  box-shadow: var(--shadow);
 }
+.btn-primary:hover{ background:#0b1220; border-color:#0b1220; }
 
 .btn-icon{
   width: 40px;
   padding-inline: 0;
   text-align: center;
-}
-
-.status{
-  display:inline-block;
-  font-size: 12px;
-  color: var(--muted);
-  padding: 6px 10px;
-  border: var(--bw) solid var(--border);
-  background: var(--card);
-}
-
-.statusbar{
-  display:flex;
-  justify-content:flex-end;
-  padding: 8px 0 6px;
 }
 
 .main{
@@ -137,6 +110,7 @@ h1{
   overflow:hidden;
   display:flex;
   flex-direction:column;
+  box-shadow: var(--shadow);
 }
 
 .panel-header{
@@ -167,10 +141,10 @@ h1{
 }
 
 .list{
-  padding: 6px;
+  padding: 4px;
   min-height: 120px;
   overflow:auto;
-  max-height: 52vh;
+  max-height: 56vh;
 }
 
 @media (max-width: 480px){
@@ -187,7 +161,7 @@ h1{
   display:flex;
   gap: 12px;
   align-items:flex-start;
-  padding: 10px;
+  padding: 8px;
   border-radius: 0;
   border: var(--bw) solid transparent;
   cursor:pointer;
@@ -254,6 +228,7 @@ h1{
   cursor: pointer;
   user-select:none;
 }
+.root-chip:hover{ filter: brightness(0.99); }
 
 .root-chip:focus{
   outline:none;
@@ -334,6 +309,7 @@ h1{
   background: var(--card);
   border: var(--bw) solid var(--border);
   border-radius: 0;
+  box-shadow: 0 14px 40px rgba(0,0,0,.22);
 }
 
 .overlay-head{
@@ -359,5 +335,7 @@ h1{
 .help-list li{ margin: 6px 0; }
 
 @media (max-width: 360px){
-  #searchBtn{ padding: 9px 8px; }
+  #q{ padding: 9px 9px; }
+  #searchBtn{ padding: 9px 8px; font-size: 12px; }
+  .btn-icon{ width: 36px; }
 }

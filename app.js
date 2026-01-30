@@ -25,7 +25,6 @@ const elHits = document.getElementById("hits");
 const elHitsCount = document.getElementById("hitsCount");
 const elRootGroup = document.getElementById("rootGroup");
 const elRootPill = document.getElementById("rootPill");
-const elStatus = document.getElementById("status");
 const elSearchBtn = document.getElementById("searchBtn");
 const elHelpBtn = document.getElementById("helpBtn");
 const elHelpOverlay = document.getElementById("helpOverlay");
@@ -55,10 +54,6 @@ function pctToColor(p01) {
     border: `hsl(${hue} 55% 72%)`,
     text: `hsl(${hue} 40% 22%)`
   };
-}
-
-function setStatus(text) {
-  elStatus.textContent = text;
 }
 
 function renderEmpty(targetEl, text) {
@@ -191,7 +186,6 @@ function applySearch() {
     currentHits = rows.map((_, i) => i);
     renderHits(currentHits);
     renderRootGroup("");
-    setStatus(`Bereit · ${rows.length} Einträge`);
     return;
   }
 
@@ -210,7 +204,6 @@ function applySearch() {
   currentHits = hits;
   renderHits(hits);
   renderRootGroup("");
-  setStatus(`Suche: "${qRaw}" · Treffer: ${hits.length}`);
 }
 
 function selectHit(idx) {
@@ -230,7 +223,6 @@ function selectHit(idx) {
 
 async function loadData() {
   elHits.setAttribute("aria-busy", "true");
-  setStatus("Lade Daten …");
   renderEmpty(elHits, "Lade Daten …");
   renderEmpty(elRootGroup, "Wähle oben einen Treffer aus, um alle Wörter mit gleicher Wurzel zu sehen.");
 
@@ -289,10 +281,8 @@ async function loadData() {
     currentHits = rows.map((_, i) => i);
     renderHits(currentHits);
     renderRootGroup("");
-    setStatus(`Bereit · ${rows.length} Einträge`);
   } catch (err) {
     console.error(err);
-    setStatus("Fehler beim Laden von ./data/data.json");
     renderEmpty(elHits, "Fehler: Konnte ./data/data.json nicht laden. Tipp: Starte die Seite über einen lokalen Webserver (nicht per file://).");
     renderEmpty(elRootGroup, "—");
   }
