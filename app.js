@@ -1,5 +1,5 @@
 // Roots WebApp
-// Expects ./dtat/data.json to exist (relative to index.html)
+// Expects ./data/data.json to exist (relative to index.html)
 
 const DIACRITICS_RE = /[\u0591-\u05C7]/g; // cantillation + niqqud
 
@@ -26,7 +26,10 @@ const elHitsCount = document.getElementById("hitsCount");
 const elRootGroup = document.getElementById("rootGroup");
 const elRootPill = document.getElementById("rootPill");
 const elStatus = document.getElementById("status");
-const elClear = document.getElementById("clearBtn");
+const elSearchBtn = document.getElementById("searchBtn");
+const elHelpBtn = document.getElementById("helpBtn");
+const elHelpOverlay = document.getElementById("helpOverlay");
+const elHelpClose = document.getElementById("helpClose");
 
 let rows = [];        // raw
 let rowsNorm = [];    // normalized for search
@@ -232,7 +235,7 @@ async function loadData() {
   renderEmpty(elRootGroup, "Wähle oben einen Treffer aus, um alle Wörter mit gleicher Wurzel zu sehen.");
 
   try {
-    const res = await fetch("./dtat/data.json", { cache: "no-store" });
+    const res = await fetch("./data/data.json", { cache: "no-store" });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
     if (!Array.isArray(data)) throw new Error("data.json muss ein Array sein.");
@@ -289,17 +292,54 @@ async function loadData() {
     setStatus(`Bereit · ${rows.length} Einträge`);
   } catch (err) {
     console.error(err);
-    setStatus("Fehler beim Laden von ./dtat/data.json");
-    renderEmpty(elHits, "Fehler: Konnte ./dtat/data.json nicht laden. Tipp: Starte die Seite über einen lokalen Webserver (nicht per file://).");
+    setStatus("Fehler beim Laden von ./data/data.json");
+    renderEmpty(elHits, "Fehler: Konnte ./data/data.json nicht laden. Tipp: Starte die Seite über einen lokalen Webserver (nicht per file://).");
     renderEmpty(elRootGroup, "—");
   }
 }
 
+function openHelp() {
+  if (!elHelpOverlay) return;
+  elHelpOverlay.classList.add("open");
+  elHelpOverlay.setAttribute("aria-hidden", "false");
+}
+
+function closeHelp() {
+  if (!elHelpOverlay) return;
+  elHelpOverlay.classList.remove("open");
+  elHelpOverlay.setAttribute("aria-hidden", "true");
+}
+
 elQ.addEventListener("input", () => applySearch());
-elClear.addEventListener("click", () => {
-  elQ.value = "";
-  elQ.focus();
-  applySearch();
+elQ.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    e.preventDefault();
+    applySearch();
+  }
+  if (e.key === "Escape") {
+    elQ.value = "";
+    applySearch();
+  }
+});
+
+if (elSearchBtn) {
+  elSearchBtn.addEventListener("click", () => {
+    applySearch();
+    elQ.focus();
+  });
+}
+
+if (elHelpBtn) elHelpBtn.addEventListener("click", openHelp);
+if (elHelpClose) elHelpClose.addEventListener("click", closeHelp);
+if (elHelpOverlay) {
+  elHelpOverlay.addEventListener("click", (e) => {
+    const t = e.target;
+    if (t && t.getAttribute && t.getAttribute("data-close") === "true") closeHelp();
+  });
+}
+
+window.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") closeHelp();
 });
 
 window.addEventListener("DOMContentLoaded", () => {

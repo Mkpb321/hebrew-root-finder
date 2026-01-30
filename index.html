@@ -8,27 +8,39 @@
 </head>
 <body>
   <header class="app-header">
-    <div class="container header-inner">
-      <div class="topbar">
-        <h1 class="app-title">Roots</h1>
-        <span id="status" class="status" aria-live="polite">Lade Daten …</span>
+    <div class="container header-inner" role="search">
+      <div class="searchbar">
+        <input id="q" type="search" inputmode="search" autocomplete="off" placeholder="Suchen: Hebräisch · Deutsch · Wurzel" aria-label="Suche" />
+        <button id="searchBtn" class="btn btn-primary" type="button" aria-label="Suchen">Suchen</button>
+        <button id="helpBtn" class="btn btn-secondary btn-icon" type="button" aria-label="Hilfe öffnen">?</button>
       </div>
-
-      <div class="search-row" role="search">
-        <label class="search-label" for="q">Suche</label>
-        <input id="q" type="search" inputmode="search" autocomplete="off" placeholder="z.B. אמר, Sohn, דבר …" />
-        <button id="clearBtn" class="btn btn-secondary" type="button" aria-label="Suche leeren">Leeren</button>
-      </div>
-
-      <details class="help">
-        <summary aria-label="Informationen">Info</summary>
-        <p class="help-text">Suche in Hebräisch, Deutsch oder nach Wurzel. Tippen/klicken, um alle Einträge mit gleicher Wurzel zu sehen.</p>
-        <p class="help-note">Datenquelle: <code>./dtat/data.json</code> (muss relativ zu <code>index.html</code> vorhanden sein).</p>
-      </details>
     </div>
   </header>
 
+  <div id="helpOverlay" class="overlay" aria-hidden="true">
+    <div class="overlay-backdrop" data-close="true"></div>
+    <div class="overlay-card" role="dialog" aria-modal="true" aria-label="Hilfe">
+      <div class="overlay-head">
+        <div class="overlay-title">Hilfe</div>
+        <button id="helpClose" class="btn btn-secondary btn-icon" type="button" aria-label="Schließen">×</button>
+      </div>
+      <div class="overlay-body">
+        <ul class="help-list">
+          <li><b>Suche</b> in Hebräisch, Deutsch oder nach Wurzeln (Niqqud wird ignoriert).</li>
+          <li><b>Roots</b>: Es gibt <b>7 Root-Felder</b>. Werte mit Kommas werden in einzelne Roots aufgeteilt.</li>
+          <li><b>Duplikate</b> werden zusammengefasst; der Badge zeigt den <b>Anteil in&nbsp;%</b> (je höher, desto grüner).</li>
+          <li>Klick auf einen Root-Badge zeigt <b>Gleiche Wurzel</b> (alle Einträge, die diese Root enthalten).</li>
+          <li>Daten: <code>./data/data.json</code> relativ zu <code>index.html</code>.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
   <main class="container main">
+    <div class="statusbar">
+      <span id="status" class="status" aria-live="polite">Lade Daten …</span>
+    </div>
+
     <section class="panel">
       <div class="panel-header">
         <h2>Treffer</h2>
