@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Roots – Suche (Hebräisch / Deutsch / Wurzel)</title>
+  <title>Roots – Suche</title>
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
   <header class="app-header">
     <div class="container header-inner" role="search">
       <div class="searchbar">
-        <input id="q" type="search" inputmode="search" autocomplete="off" placeholder="Suchen: Hebräisch · Deutsch · Wurzel" aria-label="Suche" />
+        <input id="q" type="search" inputmode="search" autocomplete="off" placeholder="Suchen (Hebräisch / Deutsch / Grundform / Wurzel)" aria-label="Suche" />
         <button id="searchBtn" class="btn btn-primary" type="button" aria-label="Suchen">Suchen</button>
         <button id="helpBtn" class="btn btn-secondary btn-icon" type="button" aria-label="Hilfe öffnen">?</button>
       </div>
@@ -26,11 +26,11 @@
       </div>
       <div class="overlay-body">
         <ul class="help-list">
-          <li><b>Suchen</b>: Du kannst nach <b>Hebräisch</b>, <b>Deutsch</b> oder <b>Wurzel</b> suchen (Niqqud wird ignoriert). Die <b>deutsche Grundform</b> wird ebenfalls mit durchsucht.</li>
-          <li><b>Wurzeln</b>: Pro Eintrag gibt es bis zu <b>9 Root-Felder</b>. Enthält ein Feld Kommas, wird es in mehrere Roots aufgeteilt.</li>
-          <li><b>Prozent-Badges</b>: Gleiche Roots werden zusammengefasst. Die Prozentzahl zeigt, in wie vielen Root-Feldern diese Root vorkommt (je höher, desto grüner).</li>
-          <li><b>Fokus</b>: Klicke auf einen Root-Badge, um alle Einträge mit <b>genau dieser Root</b> zu sehen. Mit dem Badge oben rechts kannst du den Fokus wieder aufheben.</li>
-          <li><b>Tipp</b>: Du kannst Text in den Ergebnissen markieren und kopieren. Für die Detailansicht nutze den <b>Fokus</b>-Button im Treffer.</li>
+          <li><b>Wofür ist das?</b> Die App hilft dir, hebräische Wörter schnell zu finden und ihre <b>Wurzel</b> zu verstehen – inklusive aller Wörter mit <b>derselben Wurzel</b>.</li>
+          <li><b>Suche</b>: Tippe Hebräisch oder Deutsch. Auch die <b>deutsche Grundform</b> (z.B. „gehen“) wird mit durchsucht – selbst wenn sie nicht angezeigt wird.</li>
+          <li><b>Treffer</b>: Jede Zeile zeigt <b>Hebräisch</b>, <b>Deutsch</b>, <b>Wurzel</b> und die <b>Lektion</b>.</li>
+          <li><b>Fokus</b>: Klicke auf <b>Fokus</b> in einer Zeile, um rechts alle Wörter mit <b>genau derselben Wurzel</b> zu sehen. Mit <b>×</b> kannst du den Fokus wieder löschen.</li>
+          <li><b>Tipp</b>: Du kannst Text im Ergebnis markieren und kopieren – die Zeilen selbst sind nicht klickbar.</li>
         </ul>
       </div>
     </div>
@@ -42,15 +42,15 @@
         <h2>Treffer</h2>
         <span id="hitsCount" class="pill">0</span>
       </div>
-      <div id="hits" class="list" aria-live="polite" aria-busy="true"></div>
+      <div id="hits" class="table-wrap" aria-live="polite" aria-busy="true"></div>
     </section>
 
     <section class="panel">
       <div class="panel-header">
         <h2>Gleiche Wurzel</h2>
-        <button id="rootPill" class="pill pill-muted pill-btn" type="button" aria-label="Wurzel-Fokus aufheben">—</button>
+        <button id="rootPill" class="pill pill-muted pill-btn" type="button" aria-label="Fokus aufheben" disabled>—</button>
       </div>
-      <div id="rootGroup" class="list" aria-live="polite"></div>
+      <div id="rootGroup" class="table-wrap" aria-live="polite"></div>
     </section>
   </main>
 

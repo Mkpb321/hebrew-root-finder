@@ -23,180 +23,138 @@ function escapeHtml(s) {
 const elQ = document.getElementById("q");
 const elHits = document.getElementById("hits");
 const elHitsCount = document.getElementById("hitsCount");
-const elRootGroup = document.getElementById("rootGroup");
-const elRootPill = document.getElementById("rootPill");
+const elFocusGroup = document.getElementById("rootGroup");
+const elFocusPill = document.getElementById("rootPill");
 const elSearchBtn = document.getElementById("searchBtn");
 const elHelpBtn = document.getElementById("helpBtn");
 const elHelpOverlay = document.getElementById("helpOverlay");
 const elHelpClose = document.getElementById("helpClose");
 
-let rows = [];        // raw
-let rowsNorm = [];    // normalized for search
-let currentHits = []; // indices
-let selectedIdx = null;
-let selectedRoot = "";
-
-function bestRootForRow(row) {
-  const stats = row?.rootStats ?? [];
-  if (!stats.length) return "";
-  let best = stats[0];
-  for (const s of stats) {
-    if (s.p > best.p) best = s;
-  }
-  return best.root;
-}
-
-function pctToColor(p01) {
-  // 0.0 -> red-ish, 1.0 -> green-ish
-  const hue = Math.max(0, Math.min(120, p01 * 120));
-  return {
-    bg: `hsl(${hue} 70% 93%)`,
-    border: `hsl(${hue} 55% 72%)`,
-    text: `hsl(${hue} 40% 22%)`
-  };
-}
-
-function setStatus(_text) {
-  // Statuszeile wurde entfernt (absichtlich leer).
-}
+let rows = [];        // normalized row objects
+let rowsNorm = [];    // normalized strings for search
+let currentHits = []; // indices currently shown in Treffer
+let selectedIdx = null; // focused word (by index)
+let selectedRoot = "";  // derived from selected word's root_2
 
 function renderEmpty(targetEl, text) {
   targetEl.innerHTML = `<div class="empty">${escapeHtml(text)}</div>`;
 }
 
-function makeItem(row, idx, isSelected = false) {
-  const he = row.hebrew ?? row.he ?? "";
-  const de = row.german ?? row.de ?? "";
-  const lesson = row.lesson;
-  const stats = row.rootStats ?? [];
-  const total = row.rootTotal ?? 0;
+function rootLabel(rootsArr) {
+  if (!Array.isArray(rootsArr) || rootsArr.length === 0) return "—";
+  // root_2 is expected to be one root; if multiple are present, show compactly.
+  return rootsArr.length === 1 ? rootsArr[0] : rootsArr.join(" · ");
+}
 
-  const cls = ["item"];
-  if (isSelected) cls.push("selected");
+function buildTable() {
+  const table = document.createElement("table");
+  table.className = "table";
+  table.innerHTML = `
+    <thead>
+      <tr>
+        <th class="col-he">Hebräisch</th>
+        <th>Deutsch</th>
+        <th class="col-root">Wurzel</th>
+        <th class="col-lesson">Lektion</th>
+        <th class="col-action"></th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  `;
+  return table;
+}
 
-  // Container is *not* clickable so users can select/copy text.
-  const div = document.createElement("div");
-  div.className = cls.join(" ");
-  div.dataset.idx = String(idx);
+function makeRow(row, idx, isSelected = false) {
+  const tr = document.createElement("tr");
+  tr.dataset.idx = String(idx);
+  if (isSelected) tr.classList.add("selected");
 
-  const lessonHtml = (lesson === 0 || lesson)
-    ? `<span class="meta-pill" title="Lektion">Lektion ${escapeHtml(lesson)}</span>`
-    : "";
+  const he = row.hebrew ?? "";
+  const de = row.german ?? "";
+  const lesson = (row.lesson === 0 || row.lesson) ? `Lektion ${row.lesson}` : "—";
+  const root = rootLabel(row.roots);
 
-  const focusBtnHtml = `<button class="btn btn-secondary focus-btn" type="button" data-focus="${escapeHtml(idx)}" aria-label="Treffer fokussieren">Fokus</button>`;
-
-  const rootsHtml = (total > 0 && stats.length)
-    ? stats.map(s => {
-        const pct = Math.round((s.count / total) * 100);
-        const c = pctToColor(s.p);
-        return `<span class="root-chip hebrew" role="button" tabindex="0" data-root="${escapeHtml(s.root)}" title="${escapeHtml(s.root)} · ${pct}%" style="background:${c.bg};border-color:${c.border};color:${c.text}">${escapeHtml(s.root)} <span class="pct">${pct}%</span></span>`;
-      }).join("")
-    : `<span class="root-chip root-chip-empty" title="Keine Wurzel">—</span>`;
-
-  div.innerHTML = `
-    <div class="item-main">
-      <div class="item-top">
-        <div class="hebrew he">${escapeHtml(he)}</div>
-        <div class="item-actions">
-          ${lessonHtml}
-          ${focusBtnHtml}
-        </div>
-      </div>
-      <div class="de">${escapeHtml(de)}</div>
-      <div class="roots" aria-label="Wurzeln">${rootsHtml}</div>
-    </div>
+  tr.innerHTML = `
+    <td class="hebrew he">${escapeHtml(he)}</td>
+    <td class="de">${escapeHtml(de)}</td>
+    <td class="hebrew root">${escapeHtml(root)}</td>
+    <td class="lesson">${escapeHtml(lesson)}</td>
+    <td class="action">
+      <button class="btn btn-ghost focus-btn" type="button" data-focus="${escapeHtml(idx)}" aria-label="Eintrag fokussieren">Fokus</button>
+    </td>
   `;
 
-  // Root chips: click to show group for that root
-  div.querySelectorAll(".root-chip[data-root]").forEach((chip) => {
-    chip.addEventListener("click", (e) => {
-      e.stopPropagation();
-      const r = chip.getAttribute("data-root") || "";
-      if (!r) return;
-      // Toggle root focus
-      if (selectedRoot === r) {
-        clearRootFocus();
-      } else {
-        selectedRoot = r;
-        renderRootGroup(selectedRoot);
-        renderHits(currentHits.length ? currentHits : rows.map((_, i) => i));
-      }
-    });
-    chip.addEventListener("keydown", (e) => {
-      if (e.key === "Enter" || e.key === " ") {
-        e.preventDefault();
-        chip.click();
-      }
-    });
-  });
-
-  // Focus button: explicitly open detail view (keeps text selectable/copyable)
-  const focusBtn = div.querySelector("button[data-focus]");
+  const focusBtn = tr.querySelector("button[data-focus]");
   if (focusBtn) {
     focusBtn.addEventListener("click", (e) => {
       e.stopPropagation();
       selectHit(idx);
     });
   }
-
-  return div;
+  return tr;
 }
 
-function renderHits(hitIndices) {
-  elHits.setAttribute("aria-busy", "false");
-  elHits.innerHTML = "";
-
-  elHitsCount.textContent = String(hitIndices.length);
-
-  if (hitIndices.length === 0) {
-    renderEmpty(elHits, "Keine Treffer. Bitte Suchbegriff anpassen.");
+function renderTable(targetEl, indices) {
+  targetEl.innerHTML = "";
+  if (!indices || indices.length === 0) {
+    renderEmpty(targetEl, "Keine Treffer. Bitte Suchbegriff anpassen.");
     return;
   }
 
+  const table = buildTable();
+  const tbody = table.querySelector("tbody");
   const frag = document.createDocumentFragment();
-  for (const idx of hitIndices) {
-    frag.appendChild(makeItem(rows[idx], idx, idx === selectedIdx));
+  for (const idx of indices) {
+    frag.appendChild(makeRow(rows[idx], idx, idx === selectedIdx));
   }
-  elHits.appendChild(frag);
+  tbody.appendChild(frag);
+  targetEl.appendChild(table);
 }
 
-function clearRootFocus() {
+function updateFocusPill() {
+  if (!elFocusPill) return;
+
+  if (selectedIdx === null || !rows[selectedIdx]) {
+    elFocusPill.textContent = "—";
+    elFocusPill.setAttribute("disabled", "true");
+    return;
+  }
+
+  const r = rows[selectedIdx];
+  const labelDe = (r.german ?? "").trim();
+  const labelHe = (r.hebrew ?? "").trim();
+  const label = labelDe ? labelDe : labelHe;
+
+  elFocusPill.textContent = `Fokus: ${label}  ×`;
+  elFocusPill.removeAttribute("disabled");
+}
+
+function clearFocus() {
+  selectedIdx = null;
   selectedRoot = "";
-  renderRootGroup("");
-  renderHits(currentHits.length ? currentHits : rows.map((_, i) => i));
+  updateFocusPill();
+  renderEmpty(elFocusGroup, "Wähle in den Treffern einen Eintrag über „Fokus“, um Wörter mit gleicher Wurzel zu sehen.");
+  renderTable(elHits, currentHits.length ? currentHits : rows.map((_, i) => i));
 }
 
-function renderRootGroup(root) {
-  elRootGroup.innerHTML = "";
-
-  if (!root) {
-    if (elRootPill) {
-      elRootPill.textContent = "—";
-      elRootPill.setAttribute("disabled", "true");
-    }
-    renderEmpty(elRootGroup, "Wähle oben einen Treffer aus, um alle Wörter mit gleicher Wurzel zu sehen.");
+function renderFocusGroup() {
+  if (selectedIdx === null || !selectedRoot) {
+    renderEmpty(elFocusGroup, "Wähle in den Treffern einen Eintrag über „Fokus“, um Wörter mit gleicher Wurzel zu sehen.");
     return;
   }
 
   const group = rows
     .map((r, i) => ({ r, i }))
-    .filter(x => (x.r.rootSet?.has(root)));
-
-  if (elRootPill) {
-    elRootPill.textContent = `${root} · ${group.length}  ×`;
-    elRootPill.removeAttribute("disabled");
-  }
+    .filter(x => Array.isArray(x.r.roots) && x.r.roots.includes(selectedRoot));
 
   if (group.length === 0) {
-    renderEmpty(elRootGroup, "Keine Einträge für diese Wurzel gefunden.");
+    renderEmpty(elFocusGroup, "Keine Einträge mit gleicher Wurzel gefunden.");
     return;
   }
 
-  const frag = document.createDocumentFragment();
-  for (const { r, i } of group) {
-    frag.appendChild(makeItem(r, i, i === selectedIdx));
-  }
-  elRootGroup.appendChild(frag);
+  // Render group as table; keep selection highlight.
+  const indices = group.map(x => x.i);
+  renderTable(elFocusGroup, indices);
 }
 
 function applySearch() {
@@ -205,12 +163,10 @@ function applySearch() {
   const qLc = normLatin(qRaw);
 
   if (!qRaw) {
-    selectedIdx = null;
-    selectedRoot = "";
     currentHits = rows.map((_, i) => i);
-    renderHits(currentHits);
-    renderRootGroup("");
-    setStatus(`Bereit · ${rows.length} Einträge`);
+    renderTable(elHits, currentHits);
+    elHitsCount.textContent = String(currentHits.length);
+    // keep focus view as-is
     return;
   }
 
@@ -220,37 +176,34 @@ function applySearch() {
     const ok =
       (qHe && n.he_n.includes(qHe)) ||
       (qLc && n.de_n.includes(qLc)) ||
-      (qHe && n.roots_he_n.includes(qHe)) ||
-      (qLc && n.roots_lc_n.includes(qLc));
+      (qHe && n.root_he_n.includes(qHe)) ||
+      (qLc && n.root_lc_n.includes(qLc));
     if (ok) hits.push(i);
   }
 
-  selectedIdx = null;
   currentHits = hits;
-  renderHits(hits);
-  renderRootGroup("");
-  setStatus(`Suche: "${qRaw}" · Treffer: ${hits.length}`);
+  renderTable(elHits, hits);
+  elHitsCount.textContent = String(hits.length);
 }
 
 function selectHit(idx) {
   selectedIdx = idx;
   const row = rows[idx];
-  if (!row) return;
-  // Only auto-pick a root if none is currently focused.
-  if (!selectedRoot) selectedRoot = bestRootForRow(row);
-  renderHits(currentHits.length ? currentHits : rows.map((_, i) => i));
-  renderRootGroup(selectedRoot);
+  selectedRoot = (row?.roots && row.roots[0]) ? row.roots[0] : "";
+  updateFocusPill();
+
+  // Update both panels
+  renderTable(elHits, currentHits.length ? currentHits : rows.map((_, i) => i));
+  renderFocusGroup();
 
   // Keep selected item visible on mobile
-  const node = elHits.querySelector(`[data-idx="${CSS.escape(String(idx))}"]`);
+  const node = elHits.querySelector(`tr[data-idx="${CSS.escape(String(idx))}"]`);
   if (node) node.scrollIntoView({ block: "nearest", behavior: "smooth" });
 }
 
 async function loadData() {
-  elHits.setAttribute("aria-busy", "true");
-  setStatus("Lade Daten …");
   renderEmpty(elHits, "Lade Daten …");
-  renderEmpty(elRootGroup, "Wähle oben einen Treffer aus, um alle Wörter mit gleicher Wurzel zu sehen.");
+  renderEmpty(elFocusGroup, "Wähle in den Treffern einen Eintrag über „Fokus“, um Wörter mit gleicher Wurzel zu sehen.");
 
   try {
     const res = await fetch("./data/data.json", { cache: "no-store" });
@@ -259,33 +212,14 @@ async function loadData() {
     if (!Array.isArray(data)) throw new Error("data.json muss ein Array sein.");
 
     rows = data.map((x) => {
-      const allRoots = [];
-      for (let i = 1; i <= 9; i++) {
-        const v = x?.[`root_${i}`];
-        if (typeof v !== "string") continue;
-        for (const part of v.split(",")) {
+      const root2 = x?.root_2;
+      const roots = [];
+      if (typeof root2 === "string") {
+        for (const part of root2.split(",")) {
           const r = part.trim();
-          if (r) allRoots.push(r);
+          if (r) roots.push(r);
         }
       }
-
-      const total = allRoots.length;
-      const counts = new Map();
-      const firstPos = new Map();
-      allRoots.forEach((r, pos) => {
-        counts.set(r, (counts.get(r) ?? 0) + 1);
-        if (!firstPos.has(r)) firstPos.set(r, pos);
-      });
-
-      const unique = Array.from(counts.keys());
-      const stats = unique
-        .map((r) => ({
-          root: r,
-          count: counts.get(r) ?? 0,
-          p: total ? (counts.get(r) ?? 0) / total : 0,
-          first: firstPos.get(r) ?? 0
-        }))
-        .sort((a, b) => (b.p - a.p) || (a.first - b.first));
 
       const german = x?.german ?? x?.de ?? "";
       const germanBase =
@@ -303,32 +237,29 @@ async function loadData() {
         hebrew: x?.hebrew ?? x?.he ?? "",
         german,
         germanBase,
-        rootTotal: total,
-        rootStats: stats,
-        rootSet: new Set(unique)
+        roots
       };
     });
 
     rowsNorm = rows.map((x) => {
       const deCombined = `${x.german ?? ""} ${x.germanBase ?? ""}`.trim();
-      const rootsJoined = Array.from(x.rootSet ?? []).join(" ");
+      const rootJoined = (x.roots ?? []).join(" ");
       return {
         he_n: stripHebrewDiacritics(x.hebrew),
         de_n: normLatin(deCombined),
-        roots_he_n: stripHebrewDiacritics(rootsJoined),
-        roots_lc_n: normLatin(rootsJoined)
+        root_he_n: stripHebrewDiacritics(rootJoined),
+        root_lc_n: normLatin(rootJoined)
       };
     });
 
     currentHits = rows.map((_, i) => i);
-    renderHits(currentHits);
-    renderRootGroup("");
-    setStatus(`Bereit · ${rows.length} Einträge`);
+    elHitsCount.textContent = String(currentHits.length);
+    renderTable(elHits, currentHits);
+    clearFocus();
   } catch (err) {
     console.error(err);
-    setStatus("Fehler beim Laden von ./data/data.json");
     renderEmpty(elHits, "Fehler: Konnte ./data/data.json nicht laden. Tipp: Starte die Seite über einen lokalen Webserver (nicht per file://).");
-    renderEmpty(elRootGroup, "—");
+    renderEmpty(elFocusGroup, "—");
   }
 }
 
@@ -365,9 +296,9 @@ if (elSearchBtn) {
 
 if (elHelpBtn) elHelpBtn.addEventListener("click", openHelp);
 if (elHelpClose) elHelpClose.addEventListener("click", closeHelp);
-if (elRootPill) {
-  elRootPill.addEventListener("click", () => {
-    if (selectedRoot) clearRootFocus();
+if (elFocusPill) {
+  elFocusPill.addEventListener("click", () => {
+    if (selectedIdx !== null) clearFocus();
   });
 }
 if (elHelpOverlay) {
